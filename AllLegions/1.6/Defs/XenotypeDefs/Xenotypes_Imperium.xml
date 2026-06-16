@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Dark Angel Space Marine -->
+  <XenotypeDef ParentName="SpaceMarineBase">
+    <defName>FERP_SpaceMarineI</defName>
+    <label>Dark Angel Firstborn Marine</label>
+    <description>Forged from the Emperor's ancient designs, the Firstborn stand as the original and proud warriors of the Adeptus Astartes, each bound by the gene-seed of their Primarch. Untouched by any natural disease, space marines are able to suffer wounds that would kill an ordinary man and still live to fight another day.</description>
+    <descriptionShort>Barely human, but instead superhuman; genetically engineered to be superior to normal humans in every way.</descriptionShort>
+    <iconPath>UI/Xenotypes/BEWH_Lion</iconPath>
+    <combatPowerFactor>1.25</combatPowerFactor>
+    <genes>
+      <li>BEWH_ChapterIDarkAngels</li>
+    </genes>
+  </XenotypeDef>
+
+  <!-- Dark Angel Primaris Space Marine -->
+  <XenotypeDef ParentName="SpaceMarineBase">
+    <defName>FERP_PrimarisSpaceMarineI</defName>
+    <label>Dark Angel Primaris Marine</label>
+    <description>The Primaris, crafted in secret by Archmagos Belisarius Cawl under the Emperor's long-forgotten edict, are the next evolution of the Adeptus Astartes, engineered to surpass even the Firstborn in strength, resilience, and combat prowess.</description>
+    <descriptionShort>Barely human, but instead superhuman; genetically engineered to be superior to normal humans in every way. These primaris stand above and are stronger than the standard space marine.</descriptionShort>
+    <iconPath>UI/Xenotypes/BEWH_Lion</iconPath>
+    <combatPowerFactor>1.5</combatPowerFactor>
+    <genes>
+      <li>BEWH_SinewCoil</li>
+      <li>BEWH_Magnificat</li>
+      <li>BEWH_BelisarianFurnace</li>
+      <li>BEWH_ChapterIDarkAngels</li>
+    </genes>
+  </XenotypeDef>
+
+  <!-- Emperor's Children Space Marine -->
+  <XenotypeDef ParentName="SpaceMarineBase">
+    <defName>FERP_SpaceMarineIII</defName>
+    <label>Emperor's Children Firstborn Marine</label>
+    <description>Forged from the Emperor's ancient designs, the Firstborn stand as the original and proud warriors of the Adeptus Astartes, each bound by the gene-seed of their Primarch. Untouched by any natural disease, space marines are able to suffer wounds that would kill an ordinary man and still live to fight another day.</description>
+    <descriptionShort>Barely human, but instead superhuman; genetically engineered to be superior to normal humans in every way.</descriptionShort>
+    <iconPath>UI/Xenotypes/BEWH_Fulgrim</iconPath>
+    <combatPowerFactor>1.25</combatPowerFactor>
+    <genes>
+      <li>BEWH_ChapterIIIEmperorsChildren</li>
+    </genes>
+  </XenotypeDef>
+
+  <!-- Emperor's Children Primaris Space Marine -->
+  <XenotypeDef ParentName="SpaceMarineBase">
+    <defName>FERP_PrimarisSpaceMarineIII</defName>
+    <label>Emperor's Children Primaris Marine</label>
+    <description>The Primaris, crafted in secret by Archmagos Belisarius Cawl under the Emperor's long-forgotten edict, are the next evolution of the Adeptus Astartes, engineered to surpass even the Firstborn in strength, resilience, and combat prowess.</description>
+    <descriptionShort>Barely human, but instead superhuman; genetically engineered to be superior to normal humans in every way. These primaris stand above and are stronger than the standard space marine.</descriptionShort>
+    <iconPath>UI/Xenotypes/BEWH_Fulgrim</iconPath>
+    <combatPowerFactor>1.5</combatPowerFactor>
+    <genes>
+      <li>BEWH_SinewCoil</li>
+      <li>BEWH_Magnificat</li>
+      <li>BEWH_BelisarianFurnace</li>
+      <li>BEWH_ChapterIIIEmperorsChildren</li>
+    </genes>
+  </XenotypeDef>
+
+  <!-- Iron Warrior Space Marine -->
+  <XenotypeDef ParentName="SpaceMarineBase">
+    <defName>FERP_SpaceMarineIV</defName>
+    <label>Iron Warriors Firstborn Marine</label>
+    <description>Forged from the Emperor's ancient designs, the Firstborn stand as the original and proud warriors of the Adeptus Astartes, each bound by the gene-seed of their Primarch. Untouched by any natural disease, space marines are able to suffer wounds that would kill an ordinary man and still live to fight another day.</description>
+    <descriptionShort>Barely human, but instead superhuman; genetically engineered to be superior to normal humans in every way.</descriptionShort>
+    <iconPath>UI/Xenotypes/BEWH_Perturabo</iconPath>
+    <combatPowerFactor>1.25</combatPowerFactor>
+    <genes>
+      <li>BEWH_ChapterIVIronWarriors</li>
+    </genes>
+  </XenotypeDef>
+
+  <!-- Iron Warrior Primaris Space Marine -->
+  <XenotypeDef ParentName="SpaceMarineBase">
+    <defName>FERP_PrimarisSpaceMarineIV</defName>
+    <label>Iron Warriors Primaris Marine</label>
+    <description>The Primaris, crafted in secret by Archmagos Belisarius Cawl under the Emperor's long-forgotten edict, are the next evolution of the Adeptus Astartes, engineered to surpass even the Firstborn in strength, resilience, and combat prowess.</description>
+    <descriptionShort>Barely human, but instead superhuman; genetically engineered to be superior to normal humans in every way. These primaris stand above and are stronger than the standard space marine.</descriptionShort>
+    <iconPath>UI/Xenotypes/BEWH_Perturabo</iconPath>
+    <combatPowerFactor>1.5</combatPowerFactor>
+    <genes>
+      <li>BEWH_SinewCoil</li>
+      <li>BEWH_Magnificat</li>
+      <li>BEWH_BelisarianFurnace</li>
+      <li>BEWH_ChapterIVIronWarriors</li>
+    </genes>
+  </XenotypeDef>
+
+  <!-- White Scar Space Marine -->
+  <XenotypeDef ParentName="SpaceMarineBase">
+    <defName>FERP_SpaceMarineV</defName>
+    <label>White Scars Firstborn Marine</label>
+    <description>Forged from the Emperor's ancient designs, the Firstborn stand as the original and proud warriors of the Adeptus Astartes, each bound by the gene-seed of their Primarch. Untouched by any natural disease, space marines are able to suffer wounds that would kill an ordinary man and still live to fight another day.</description>
+    <descriptionShort>Barely human, but instead superhuman; genetically engineered to be superior to normal humans in every way.</descriptionShort>
+    <iconPath>UI/Xenotypes/BEWH_Khan</iconPath>
+    <combatPowerFactor>1.25</combatPowerFactor>
+    <genes>
+      <li>BEWH_ChapterVWhiteScars</li>
+    </genes>
+  </XenotypeDef>
+
+  <!-- White Scar Primaris Space Marine -->
+  <XenotypeDef ParentName="SpaceMarineBase">
+    <defName>FERP_PrimarisSpaceMarineV</defName>
+    <label>White Scars Primaris Marine</label>
+    <description>The Primaris, crafted in secret by Archmagos Belisarius Cawl under the Emperor's long-forgotten edict, are the next evolution of the Adeptus Astartes, engineered to surpass even the Firstborn in strength, resilience, and combat prowess.</description>
+    <descriptionShort>Barely human, but instead superhuman; genetically engineered to be superior to normal humans in every way. These primaris stand above and are stronger than the standard space marine.</descriptionShort>
+    <iconPath>UI/Xenotypes/BEWH_Khan</iconPath>
+    <combatPowerFactor>1.5</combatPowerFactor>
+    <genes>
+      <li>BEWH_SinewCoil</li>
+      <li>BEWH_Magnificat</li>
+      <li>BEWH_BelisarianFurnace</li>
+      <li>BEWH_ChapterVWhiteScars</li>
+    </genes>
+  </XenotypeDef>
+
+  <!-- Space Wolf Space Marine -->
+  <XenotypeDef ParentName="SpaceMarineBase">
+    <defName>FERP_SpaceMarineVI</defName>
+    <label>Space Wolves Firstborn Marine</label>
+    <description>Forged from the Emperor's ancient designs, the Firstborn stand as the original and proud warriors of the Adeptus Astartes, each bound by the gene-seed of their Primarch. Untouched by any natural disease, space marines are able to suffer wounds that would kill an ordinary man and still live to fight another day.</description>
+    <descriptionShort>Barely human, but instead superhuman; genetically engineered to be superior to normal humans in every way.</descriptionShort>
+    <iconPath>UI/Xenotypes/BEWH_Russ</iconPath>
+    <combatPowerFactor>1.25</combatPowerFactor>
+    <genes>
+      <li>BEWH_ChapterVISpaceWolves</li>
+    </genes>
+  </XenotypeDef>
+
+  <!-- Space Wolf Primaris Space Marine -->
+  <XenotypeDef ParentName="SpaceMarineBase">
+    <defName>FERP_PrimarisSpaceMarineVI</defName>
+    <label>Space Wolves Primaris Marine</label>
+    <description>The Primaris, crafted in secret by Archmagos Belisarius Cawl under the Emperor's long-forgotten edict, are the next evolution of the Adeptus Astartes, engineered to surpass even the Firstborn in strength, resilience, and combat prowess.</description>
+    <descriptionShort>Barely human, but instead superhuman; genetically engineered to be superior to normal humans in every way. These primaris stand above and are stronger than the standard space marine.</descriptionShort>
+    <iconPath>UI/Xenotypes/BEWH_Russ</iconPath>
+    <combatPowerFactor>1.5</combatPowerFactor>
+    <genes>
+      <li>BEWH_SinewCoil</li>
+      <li>BEWH_Magnificat</li>
+      <li>BEWH_BelisarianFurnace</li>
+      <li>BEWH_ChapterVISpaceWolves</li>
+    </genes>
+  </XenotypeDef>
+
+  <!-- Imperial Fist Space Marine -->
+  <XenotypeDef ParentName="SpaceMarineBase">
+    <defName>FERP_SpaceMarineVII</defName>
+    <label>Imperial Fists Firstborn Marine</label>
+    <description>Forged from the Emperor's ancient designs, the Firstborn stand as the original and proud warriors of the Adeptus Astartes, each bound by the gene-seed of their Primarch. Untouched by any natural disease, space marines are able to suffer wounds that would kill an ordinary man and still live to fight another day.</description>
+    <descriptionShort>Barely human, but instead superhuman; genetically engineered to be superior to normal humans in every way.</descriptionShort>
+    <iconPath>UI/Xenotypes/BEWH_Dorn</iconPath>
+    <combatPowerFactor>1.25</combatPowerFactor>
+    <genes>
+      <li>BEWH_ChapterVIIImperialFists</li>
+    </genes>
+  </XenotypeDef>
+
+  <!-- Imperial Fist Primaris Space Marine -->
+  <XenotypeDef ParentName="SpaceMarineBase">
+    <defName>FERP_PrimarisSpaceMarineVII</defName>
+    <label>Imperial Fists Primaris Marine</label>
+    <description>The Primaris, crafted in secret by Archmagos Belisarius Cawl under the Emperor's long-forgotten edict, are the next evolution of the Adeptus Astartes, engineered to surpass even the Firstborn in strength, resilience, and combat prowess.</description>
+    <descriptionShort>Barely human, but instead superhuman; genetically engineered to be superior to normal humans in every way. These primaris stand above and are stronger than the standard space marine.</descriptionShort>
+    <iconPath>UI/Xenotypes/BEWH_Dorn</iconPath>
+    <combatPowerFactor>1.5</combatPowerFactor>
+    <genes>
+      <li>BEWH_SinewCoil</li>
+      <li>BEWH_Magnificat</li>
+      <li>BEWH_BelisarianFurnace</li>
+      <li>BEWH_ChapterVIIImperialFists</li>
+    </genes>
+  </XenotypeDef>
+
+  <!-- Night Lord Space Marine -->
+  <XenotypeDef ParentName="SpaceMarineBase">
+    <defName>FERP_SpaceMarineVIII</defName>
+    <label>Night Lords Firstborn Marine</label>
+    <description>Forged from the Emperor's ancient designs, the Firstborn stand as the original and proud warriors of the Adeptus Astartes, each bound by the gene-seed of their Primarch. Untouched by any natural disease, space marines are able to suffer wounds that would kill an ordinary man and still live to fight another day.</description>
+    <descriptionShort>Barely human, but instead superhuman; genetically engineered to be superior to normal humans in every way.</descriptionShort>
+    <iconPath>UI/Xenotypes/BEWH_Curze</iconPath>
+    <combatPowerFactor>1.25</combatPowerFactor>
+    <genes>
+      <li>BEWH_ChapterVIIINightLords</li>
+    </genes>
+  </XenotypeDef>
+
+  <!-- Night Lord Primaris Space Marine -->
+  <XenotypeDef ParentName="SpaceMarineBase">
+    <defName>FERP_PrimarisSpaceMarineVIII</defName>
+    <label>Night Lords Primaris Marine</label>
+    <description>The Primaris, crafted in secret by Archmagos Belisarius Cawl under the Emperor's long-forgotten edict, are the next evolution of the Adeptus Astartes, engineered to surpass even the Firstborn in strength, resilience, and combat prowess.</description>
+    <descriptionShort>Barely human, but instead superhuman; genetically engineered to be superior to normal humans in every way. These primaris stand above and are stronger than the standard space marine.</descriptionShort>
+    <iconPath>UI/Xenotypes/BEWH_Curze</iconPath>
+    <combatPowerFactor>1.5</combatPowerFactor>
+    <genes>
+      <li>BEWH_SinewCoil</li>
+      <li>BEWH_Magnificat</li>
+      <li>BEWH_BelisarianFurnace</li>
+      <li>BEWH_ChapterVIIINightLords</li>
+    </genes>
+  </XenotypeDef>
+
+  <!-- Blood Angel Space Marine -->
+  <XenotypeDef ParentName="SpaceMarineBase">
+    <defName>FERP_SpaceMarineIX</defName>
+    <label>Blood Angels Firstborn Marine</label>
+    <description>Forged from the Emperor's ancient designs, the Firstborn stand as the original and proud warriors of the Adeptus Astartes, each bound by the gene-seed of their Primarch. Untouched by any natural disease, space marines are able to suffer wounds that would kill an ordinary man and still live to fight another day.</description>
+    <descriptionShort>Barely human, but instead superhuman; genetically engineered to be superior to normal humans in every way.</descriptionShort>
+    <iconPath>UI/Xenotypes/BEWH_Sanguinius</iconPath>
+    <combatPowerFactor>1.25</combatPowerFactor>
+    <genes>
+      <li>BEWH_ChapterIXBloodAngels</li>
+    </genes>
+  </XenotypeDef>
+
+  <!-- Blood Angel Primaris Space Marine -->
+  <XenotypeDef ParentName="SpaceMarineBase">
+    <defName>FERP_PrimarisSpaceMarineIX</defName>
+    <label>Blood Angels Primaris Marine</label>
+    <description>The Primaris, crafted in secret by Archmagos Belisarius Cawl under the Emperor's long-forgotten edict, are the next evolution of the Adeptus Astartes, engineered to surpass even the Firstborn in strength, resilience, and combat prowess.</description>
+    <descriptionShort>Barely human, but instead superhuman; genetically engineered to be superior to normal humans in every way. These primaris stand above and are stronger than the standard space marine.</descriptionShort>
+    <iconPath>UI/Xenotypes/BEWH_Sanguinius</iconPath>
+    <combatPowerFactor>1.5</combatPowerFactor>
+    <genes>
+      <li>BEWH_SinewCoil</li>
+      <li>BEWH_Magnificat</li>
+      <li>BEWH_BelisarianFurnace</li>
+      <li>BEWH_ChapterIXBloodAngels</li>
+    </genes>
+  </XenotypeDef>
+
+  <!-- Iron Hand Space Marine -->
+  <XenotypeDef ParentName="SpaceMarineBase">
+    <defName>FERP_SpaceMarineX</defName>
+    <label>Iron Hands Firstborn Marine</label>
+    <description>Forged from the Emperor's ancient designs, the Firstborn stand as the original and proud warriors of the Adeptus Astartes, each bound by the gene-seed of their Primarch. Untouched by any natural disease, space marines are able to suffer wounds that would kill an ordinary man and still live to fight another day.</description>
+    <descriptionShort>Barely human, but instead superhuman; genetically engineered to be superior to normal humans in every way.</descriptionShort>
+    <iconPath>UI/Xenotypes/BEWH_Manus</iconPath>
+    <combatPowerFactor>1.25</combatPowerFactor>
+    <genes>
+      <li>BEWH_ChapterXIronHands</li>
+    </genes>
+  </XenotypeDef>
+
+  <!-- Iron Hand Primaris Space Marine -->
+  <XenotypeDef ParentName="SpaceMarineBase">
+    <defName>FERP_PrimarisSpaceMarineX</defName>
+    <label>Iron Hands Primaris Marine</label>
+    <description>The Primaris, crafted in secret by Archmagos Belisarius Cawl under the Emperor's long-forgotten edict, are the next evolution of the Adeptus Astartes, engineered to surpass even the Firstborn in strength, resilience, and combat prowess.</description>
+    <descriptionShort>Barely human, but instead superhuman; genetically engineered to be superior to normal humans in every way. These primaris stand above and are stronger than the standard space marine.</descriptionShort>
+    <iconPath>UI/Xenotypes/BEWH_Manus</iconPath>
+    <combatPowerFactor>1.5</combatPowerFactor>
+    <genes>
+      <li>BEWH_SinewCoil</li>
+      <li>BEWH_Magnificat</li>
+      <li>BEWH_BelisarianFurnace</li>
+      <li>BEWH_ChapterXIronHands</li>
+    </genes>
+  </XenotypeDef>
+
+  <!-- World Eater Space Marine -->
+  <XenotypeDef ParentName="SpaceMarineBase">
+    <defName>FERP_SpaceMarineXII</defName>
+    <label>World Eaters Firstborn Marine</label>
+    <description>Forged from the Emperor's ancient designs, the Firstborn stand as the original and proud warriors of the Adeptus Astartes, each bound by the gene-seed of their Primarch. Untouched by any natural disease, space marines are able to suffer wounds that would kill an ordinary man and still live to fight another day.</description>
+    <descriptionShort>Barely human, but instead superhuman; genetically engineered to be superior to normal humans in every way.</descriptionShort>
+    <iconPath>UI/Xenotypes/BEWH_Chillgron</iconPath>
+    <combatPowerFactor>1.25</combatPowerFactor>
+    <genes>
+      <li>BEWH_ChapterXIIWorldEaters</li>
+    </genes>
+  </XenotypeDef>
+
+  <!-- World Eater Primaris Space Marine -->
+  <XenotypeDef ParentName="SpaceMarineBase">
+    <defName>FERP_PrimarisSpaceMarineXII</defName>
+    <label>World Eaters Primaris Marine</label>
+    <description>The Primaris, crafted in secret by Archmagos Belisarius Cawl under the Emperor's long-forgotten edict, are the next evolution of the Adeptus Astartes, engineered to surpass even the Firstborn in strength, resilience, and combat prowess.</description>
+    <descriptionShort>Barely human, but instead superhuman; genetically engineered to be superior to normal humans in every way. These primaris stand above and are stronger than the standard space marine.</descriptionShort>
+    <iconPath>UI/Xenotypes/BEWH_Chillgron</iconPath>
+    <combatPowerFactor>1.5</combatPowerFactor>
+    <genes>
+      <li>BEWH_SinewCoil</li>
+      <li>BEWH_Magnificat</li>
+      <li>BEWH_BelisarianFurnace</li>
+      <li>BEWH_ChapterXIIWorldEaters</li>
+    </genes>
+  </XenotypeDef>
+
+  <!-- Ultramarine Space Marine -->
+  <XenotypeDef ParentName="SpaceMarineBase">
+    <defName>FERP_SpaceMarineXIII</defName>
+    <label>Ultramarines Firstborn Marine</label>
+    <description>Forged from the Emperor's ancient designs, the Firstborn stand as the original and proud warriors of the Adeptus Astartes, each bound by the gene-seed of their Primarch. Untouched by any natural disease, space marines are able to suffer wounds that would kill an ordinary man and still live to fight another day.</description>
+    <descriptionShort>Barely human, but instead superhuman; genetically engineered to be superior to normal humans in every way.</descriptionShort>
+    <iconPath>UI/Xenotypes/BEWH_Robot</iconPath>
+    <combatPowerFactor>1.25</combatPowerFactor>
+    <genes>
+      <li>BEWH_ChapterXIIIUltramarines</li>
+    </genes>
+  </XenotypeDef>
+
+  <!-- Ultramarine Primaris Space Marine -->
+  <XenotypeDef ParentName="SpaceMarineBase">
+    <defName>FERP_PrimarisSpaceMarineXIII</defName>
+    <label>Ultramarines Primaris Marine</label>
+    <description>The Primaris, crafted in secret by Archmagos Belisarius Cawl under the Emperor's long-forgotten edict, are the next evolution of the Adeptus Astartes, engineered to surpass even the Firstborn in strength, resilience, and combat prowess.</description>
+    <descriptionShort>Barely human, but instead superhuman; genetically engineered to be superior to normal humans in every way. These primaris stand above and are stronger than the standard space marine.</descriptionShort>
+    <iconPath>UI/Xenotypes/BEWH_Robot</iconPath>
+    <combatPowerFactor>1.5</combatPowerFactor>
+    <genes>
+      <li>BEWH_SinewCoil</li>
+      <li>BEWH_Magnificat</li>
+      <li>BEWH_BelisarianFurnace</li>
+      <li>BEWH_ChapterXIIIUltramarines</li>
+    </genes>
+  </XenotypeDef>
+
+  <!-- Death Guard Space Marine -->
+  <XenotypeDef ParentName="SpaceMarineBase">
+    <defName>FERP_SpaceMarineXIV</defName>
+    <label>Death Guard Firstborn Marine</label>
+    <description>Forged from the Emperor's ancient designs, the Firstborn stand as the original and proud warriors of the Adeptus Astartes, each bound by the gene-seed of their Primarch. Untouched by any natural disease, space marines are able to suffer wounds that would kill an ordinary man and still live to fight another day.</description>
+    <descriptionShort>Barely human, but instead superhuman; genetically engineered to be superior to normal humans in every way.</descriptionShort>
+    <iconPath>UI/Xenotypes/BEWH_Morty</iconPath>
+    <combatPowerFactor>1.25</combatPowerFactor>
+    <genes>
+      <li>BEWH_ChapterXIVDeathGuard</li>
+    </genes>
+  </XenotypeDef>
+
+  <!-- Death Guard Primaris Space Marine -->
+  <XenotypeDef ParentName="SpaceMarineBase">
+    <defName>FERP_PrimarisSpaceMarineXIV</defName>
+    <label>Death Guard Primaris Marine</label>
+    <description>The Primaris, crafted in secret by Archmagos Belisarius Cawl under the Emperor's long-forgotten edict, are the next evolution of the Adeptus Astartes, engineered to surpass even the Firstborn in strength, resilience, and combat prowess.</description>
+    <descriptionShort>Barely human, but instead superhuman; genetically engineered to be superior to normal humans in every way. These primaris stand above and are stronger than the standard space marine.</descriptionShort>
+    <iconPath>UI/Xenotypes/BEWH_Morty</iconPath>
+    <combatPowerFactor>1.5</combatPowerFactor>
+    <genes>
+      <li>BEWH_SinewCoil</li>
+      <li>BEWH_Magnificat</li>
+      <li>BEWH_BelisarianFurnace</li>
+      <li>BEWH_ChapterXIVDeathGuard</li>
+    </genes>
+  </XenotypeDef>
+
+  <!-- Thousand Son Space Marine -->
+  <XenotypeDef ParentName="SpaceMarineBase">
+    <defName>FERP_SpaceMarineXV</defName>
+    <label>Thousand Sons Firstborn Marine</label>
+    <description>Forged from the Emperor's ancient designs, the Firstborn stand as the original and proud warriors of the Adeptus Astartes, each bound by the gene-seed of their Primarch. Untouched by any natural disease, space marines are able to suffer wounds that would kill an ordinary man and still live to fight another day.</description>
+    <descriptionShort>Barely human, but instead superhuman; genetically engineered to be superior to normal humans in every way.</descriptionShort>
+    <iconPath>UI/Xenotypes/BEWH_Magnus</iconPath>
+    <combatPowerFactor>1.25</combatPowerFactor>
+    <genes>
+      <li>BEWH_ChapterXVThousandSons</li>
+    </genes>
+  </XenotypeDef>
+
+  <!-- Thousand Son Primaris Space Marine -->
+  <XenotypeDef ParentName="SpaceMarineBase">
+    <defName>FERP_PrimarisSpaceMarineXV</defName>
+    <label>Thousand Sons Primaris Marine</label>
+    <description>The Primaris, crafted in secret by Archmagos Belisarius Cawl under the Emperor's long-forgotten edict, are the next evolution of the Adeptus Astartes, engineered to surpass even the Firstborn in strength, resilience, and combat prowess.</description>
+    <descriptionShort>Barely human, but instead superhuman; genetically engineered to be superior to normal humans in every way. These primaris stand above and are stronger than the standard space marine.</descriptionShort>
+    <iconPath>UI/Xenotypes/BEWH_Magnus</iconPath>
+    <combatPowerFactor>1.5</combatPowerFactor>
+    <genes>
+      <li>BEWH_SinewCoil</li>
+      <li>BEWH_Magnificat</li>
+      <li>BEWH_BelisarianFurnace</li>
+      <li>BEWH_ChapterXVThousandSons</li>
+    </genes>
+  </XenotypeDef>
+
+  <!-- Sons of Horus Space Marine -->
+  <XenotypeDef ParentName="SpaceMarineBase">
+    <defName>FERP_SpaceMarineXVI</defName>
+    <label>Sons of Horus Firstborn Marine</label>
+    <description>Forged from the Emperor's ancient designs, the Firstborn stand as the original and proud warriors of the Adeptus Astartes, each bound by the gene-seed of their Primarch. Untouched by any natural disease, space marines are able to suffer wounds that would kill an ordinary man and still live to fight another day.</description>
+    <descriptionShort>Barely human, but instead superhuman; genetically engineered to be superior to normal humans in every way.</descriptionShort>
+    <iconPath>UI/Xenotypes/BEWH_TheBaldOne</iconPath>
+    <combatPowerFactor>1.25</combatPowerFactor>
+    <genes>
+      <li>BEWH_ChapterXVISonsOfHorus</li>
+    </genes>
+  </XenotypeDef>
+
+  <!-- Sons of Horus Primaris Space Marine -->
+  <XenotypeDef ParentName="SpaceMarineBase">
+    <defName>FERP_PrimarisSpaceMarineXVI</defName>
+    <label>Sons of Horus Primaris Marine</label>
+    <description>The Primaris, crafted in secret by Archmagos Belisarius Cawl under the Emperor's long-forgotten edict, are the next evolution of the Adeptus Astartes, engineered to surpass even the Firstborn in strength, resilience, and combat prowess.</description>
+    <descriptionShort>Barely human, but instead superhuman; genetically engineered to be superior to normal humans in every way. These primaris stand above and are stronger than the standard space marine.</descriptionShort>
+    <iconPath>UI/Xenotypes/BEWH_TheBaldOne</iconPath>
+    <combatPowerFactor>1.5</combatPowerFactor>
+    <genes>
+      <li>BEWH_SinewCoil</li>
+      <li>BEWH_Magnificat</li>
+      <li>BEWH_BelisarianFurnace</li>
+      <li>BEWH_ChapterXVISonsOfHorus</li>
+    </genes>
+  </XenotypeDef>
+
+  <!-- Word Bearer Space Marine -->
+  <XenotypeDef ParentName="SpaceMarineBase">
+    <defName>FERP_SpaceMarineXVII</defName>
+    <label>Word Bearers Firstborn Marine</label>
+    <description>Forged from the Emperor's ancient designs, the Firstborn stand as the original and proud warriors of the Adeptus Astartes, each bound by the gene-seed of their Primarch. Untouched by any natural disease, space marines are able to suffer wounds that would kill an ordinary man and still live to fight another day.</description>
+    <descriptionShort>Barely human, but instead superhuman; genetically engineered to be superior to normal humans in every way.</descriptionShort>
+    <iconPath>UI/Xenotypes/BEWH_Lorgar</iconPath>
+    <combatPowerFactor>1.25</combatPowerFactor>
+    <genes>
+      <li>BEWH_ChapterXVIIWordBearers</li>
+    </genes>
+  </XenotypeDef>
+
+  <!-- Word Bearer Primaris Space Marine -->
+  <XenotypeDef ParentName="SpaceMarineBase">
+    <defName>FERP_PrimarisSpaceMarineXVII</defName>
+    <label>Word Bearers Primaris Marine</label>
+    <description>The Primaris, crafted in secret by Archmagos Belisarius Cawl under the Emperor's long-forgotten edict, are the next evolution of the Adeptus Astartes, engineered to surpass even the Firstborn in strength, resilience, and combat prowess.</description>
+    <descriptionShort>Barely human, but instead superhuman; genetically engineered to be superior to normal humans in every way. These primaris stand above and are stronger than the standard space marine.</descriptionShort>
+    <iconPath>UI/Xenotypes/BEWH_Lorgar</iconPath>
+    <combatPowerFactor>1.5</combatPowerFactor>
+    <genes>
+      <li>BEWH_SinewCoil</li>
+      <li>BEWH_Magnificat</li>
+      <li>BEWH_BelisarianFurnace</li>
+      <li>BEWH_ChapterXVIIWordBearers</li>
+    </genes>
+  </XenotypeDef>
+
+  <!-- Salamander Space Marine -->
+  <XenotypeDef ParentName="SpaceMarineBase">
+    <defName>FERP_SpaceMarineXVIII</defName>
+    <label>Salamanders Firstborn Marine</label>
+    <description>Forged from the Emperor's ancient designs, the Firstborn stand as the original and proud warriors of the Adeptus Astartes, each bound by the gene-seed of their Primarch. Untouched by any natural disease, space marines are able to suffer wounds that would kill an ordinary man and still live to fight another day.</description>
+    <descriptionShort>Barely human, but instead superhuman; genetically engineered to be superior to normal humans in every way.</descriptionShort>
+    <iconPath>UI/Xenotypes/BEWH_Vulkan</iconPath>
+    <combatPowerFactor>1.25</combatPowerFactor>
+    <genes>
+      <li>BEWH_ChapterXVIIISalamanders</li>
+    </genes>
+  </XenotypeDef>
+
+  <!-- Salamander Primaris Space Marine -->
+  <XenotypeDef ParentName="SpaceMarineBase">
+    <defName>FERP_PrimarisSpaceMarineXVIII</defName>
+    <label>Salamanders Primaris Marine</label>
+    <description>The Primaris, crafted in secret by Archmagos Belisarius Cawl under the Emperor's long-forgotten edict, are the next evolution of the Adeptus Astartes, engineered to surpass even the Firstborn in strength, resilience, and combat prowess.</description>
+    <descriptionShort>Barely human, but instead superhuman; genetically engineered to be superior to normal humans in every way. These primaris stand above and are stronger than the standard space marine.</descriptionShort>
+    <iconPath>UI/Xenotypes/BEWH_Vulkan</iconPath>
+    <combatPowerFactor>1.5</combatPowerFactor>
+    <genes>
+      <li>BEWH_SinewCoil</li>
+      <li>BEWH_Magnificat</li>
+      <li>BEWH_BelisarianFurnace</li>
+      <li>BEWH_ChapterXVIIISalamanders</li>
+    </genes>
+  </XenotypeDef>
+
+  <!-- Raven Guard Space Marine -->
+  <XenotypeDef ParentName="SpaceMarineBase">
+    <defName>FERP_SpaceMarineXIX</defName>
+    <label>Raven Guard Firstborn Marine</label>
+    <description>Forged from the Emperor's ancient designs, the Firstborn stand as the original and proud warriors of the Adeptus Astartes, each bound by the gene-seed of their Primarch. Untouched by any natural disease, space marines are able to suffer wounds that would kill an ordinary man and still live to fight another day.</description>
+    <descriptionShort>Barely human, but instead superhuman; genetically engineered to be superior to normal humans in every way.</descriptionShort>
+    <iconPath>UI/Xenotypes/BEWH_Corvus</iconPath>
+    <combatPowerFactor>1.25</combatPowerFactor>
+    <genes>
+      <li>BEWH_ChapterXIXRavenGuard</li>
+    </genes>
+  </XenotypeDef>
+
+  <!-- Raven Guard Primaris Space Marine -->
+  <XenotypeDef ParentName="SpaceMarineBase">
+    <defName>FERP_PrimarisSpaceMarineXIX</defName>
+    <label>Raven Guard Primaris Marine</label>
+    <description>The Primaris, crafted in secret by Archmagos Belisarius Cawl under the Emperor's long-forgotten edict, are the next evolution of the Adeptus Astartes, engineered to surpass even the Firstborn in strength, resilience, and combat prowess.</description>
+    <descriptionShort>Barely human, but instead superhuman; genetically engineered to be superior to normal humans in every way. These primaris stand above and are stronger than the standard space marine.</descriptionShort>
+    <iconPath>UI/Xenotypes/BEWH_Corvus</iconPath>
+    <combatPowerFactor>1.5</combatPowerFactor>
+    <genes>
+      <li>BEWH_SinewCoil</li>
+      <li>BEWH_Magnificat</li>
+      <li>BEWH_BelisarianFurnace</li>
+      <li>BEWH_ChapterXIXRavenGuard</li>
+    </genes>
+  </XenotypeDef>
+
+  <!-- Alpha Legion Space Marine -->
+  <XenotypeDef ParentName="SpaceMarineBase">
+    <defName>FERP_SpaceMarineXX</defName>
+    <label>Alpha Legion Firstborn Marine</label>
+    <description>Forged from the Emperor's ancient designs, the Firstborn stand as the original and proud warriors of the Adeptus Astartes, each bound by the gene-seed of their Primarch. Untouched by any natural disease, space marines are able to suffer wounds that would kill an ordinary man and still live to fight another day.</description>
+    <descriptionShort>Barely human, but instead superhuman; genetically engineered to be superior to normal humans in every way.</descriptionShort>
+    <iconPath>UI/Xenotypes/BEWH_AlphaOmega</iconPath>
+    <combatPowerFactor>1.25</combatPowerFactor>
+    <genes>
+      <li>BEWH_ChapterXXAlphaLegion</li>
+    </genes>
+  </XenotypeDef>
+
+  <!-- Alpha Legion Primaris Space Marine -->
+  <XenotypeDef ParentName="SpaceMarineBase">
+    <defName>FERP_PrimarisSpaceMarineXX</defName>
+    <label>Alpha Legion Primaris Marine</label>
+    <description>The Primaris, crafted in secret by Archmagos Belisarius Cawl under the Emperor's long-forgotten edict, are the next evolution of the Adeptus Astartes, engineered to surpass even the Firstborn in strength, resilience, and combat prowess.</description>
+    <descriptionShort>Barely human, but instead superhuman; genetically engineered to be superior to normal humans in every way. These primaris stand above and are stronger than the standard space marine.</descriptionShort>
+    <iconPath>UI/Xenotypes/BEWH_AlphaOmega</iconPath>
+    <combatPowerFactor>1.5</combatPowerFactor>
+    <genes>
+      <li>BEWH_SinewCoil</li>
+      <li>BEWH_Magnificat</li>
+      <li>BEWH_BelisarianFurnace</li>
+      <li>BEWH_ChapterXXAlphaLegion</li>
+    </genes>
+  </XenotypeDef>
+
+  <!-- SUCCESSOR CHAPTERS -->
+
+  <!-- Black Templars Space Marine -->
+  <XenotypeDef ParentName="SpaceMarineBase">
+    <defName>FERP_SpaceMarineBlackTemplars</defName>
+    <label>Black Templars Firstborn Marine</label>
+    <description>Forged from the Emperor's ancient designs, the Firstborn stand as the original and proud warriors of the Adeptus Astartes, each bound by the gene-seed of their Primarch. Untouched by any natural disease, space marines are able to suffer wounds that would kill an ordinary man and still live to fight another day.</description>
+    <descriptionShort>Barely human, but instead superhuman; genetically engineered to be superior to normal humans in every way.</descriptionShort>
+    <iconPath>UI/Xenotypes/FERP_BlackTemplars</iconPath>
+    <combatPowerFactor>1.25</combatPowerFactor>
+    <genes>
+      <li>BEWH_ChapterBlackTemplars</li>
+    </genes>
+  </XenotypeDef>
+
+  <!-- Black Templars Primaris Space Marine -->
+  <XenotypeDef ParentName="SpaceMarineBase">
+    <defName>FERP_PrimarisSpaceMarineBlackTemplars</defName>
+    <label>Black Templars Primaris Marine</label>
+    <description>The Primaris, crafted in secret by Archmagos Belisarius Cawl under the Emperor's long-forgotten edict, are the next evolution of the Adeptus Astartes, engineered to surpass even the Firstborn in strength, resilience, and combat prowess.</description>
+    <descriptionShort>Barely human, but instead superhuman; genetically engineered to be superior to normal humans in every way. These primaris stand above and are stronger than the standard space marine.</descriptionShort>
+    <iconPath>UI/Xenotypes/FERP_BlackTemplars</iconPath>
+    <combatPowerFactor>1.5</combatPowerFactor>
+    <genes>
+      <li>BEWH_SinewCoil</li>
+      <li>BEWH_Magnificat</li>
+      <li>BEWH_BelisarianFurnace</li>
+      <li>BEWH_ChapterBlackTemplars</li>
+    </genes>
+  </XenotypeDef>
+
+</Defs>

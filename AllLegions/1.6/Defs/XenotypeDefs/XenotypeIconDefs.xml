@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <!-- The Lion -->
+    <XenotypeIconDef>
+        <defName>BEWH_Lion</defName>
+        <texPath>UI/Xenotypes/BEWH_Lion</texPath>
+    </XenotypeIconDef>
+
+    <!-- Fulgrim -->
+    <XenotypeIconDef>
+        <defName>BEWH_Fulgrim</defName>
+        <texPath>UI/Xenotypes/BEWH_Fulgrim</texPath>
+    </XenotypeIconDef>
+
+    <!-- Perturabo -->
+    <XenotypeIconDef>
+        <defName>BEWH_Perturabo</defName>
+        <texPath>UI/Xenotypes/BEWH_Perturabo</texPath>
+    </XenotypeIconDef>
+
+    <!-- Jaghatai Khan -->
+    <XenotypeIconDef>
+        <defName>BEWH_Khan</defName>
+        <texPath>UI/Xenotypes/BEWH_Khan</texPath>
+    </XenotypeIconDef>
+
+    <!-- Leman Russ -->
+    <XenotypeIconDef>
+        <defName>BEWH_Russ</defName>
+        <texPath>UI/Xenotypes/BEWH_Russ</texPath>
+    </XenotypeIconDef>
+
+    <!-- Rogal Dorn -->
+    <XenotypeIconDef>
+        <defName>BEWH_Dorn</defName>
+        <texPath>UI/Xenotypes/BEWH_Dorn</texPath>
+    </XenotypeIconDef>
+
+    <!-- Konrad Curze -->
+    <XenotypeIconDef>
+        <defName>BEWH_Curze</defName>
+        <texPath>UI/Xenotypes/BEWH_Curze</texPath>
+    </XenotypeIconDef>
+
+    <!-- Sanguinius -->
+    <XenotypeIconDef>
+        <defName>BEWH_Sanguinius</defName>
+        <texPath>UI/Xenotypes/BEWH_Sanguinius</texPath>
+    </XenotypeIconDef>
+
+    <!-- Ferrus Manus -->
+    <XenotypeIconDef>
+        <defName>BEWH_Manus</defName>
+        <texPath>UI/Xenotypes/BEWH_Manus</texPath>
+    </XenotypeIconDef>
+
+    <!-- Angron -->
+    <XenotypeIconDef>
+        <defName>BEWH_Chillgron</defName>
+        <texPath>UI/Xenotypes/BEWH_Chillgron</texPath>
+    </XenotypeIconDef>
+
+    <!-- Robute Guilliman -->
+    <XenotypeIconDef>
+        <defName>BEWH_Robot</defName>
+        <texPath>UI/Xenotypes/BEWH_Robot</texPath>
+    </XenotypeIconDef>
+
+    <!-- Mortarion -->
+    <XenotypeIconDef>
+        <defName>BEWH_Morty</defName>
+        <texPath>UI/Xenotypes/BEWH_Morty</texPath>
+    </XenotypeIconDef>
+
+    <!-- Magnus the Red -->
+    <XenotypeIconDef>
+        <defName>BEWH_Magnus</defName>
+        <texPath>UI/Xenotypes/BEWH_Magnus</texPath>
+    </XenotypeIconDef>
+
+    <!-- Horus Lupercal -->
+    <XenotypeIconDef>
+        <defName>BEWH_TheBaldOne</defName>
+        <texPath>UI/Xenotypes/BEWH_TheBaldOne</texPath>
+    </XenotypeIconDef>
+
+    <!-- Lorgar Aurelian -->
+    <XenotypeIconDef>
+        <defName>BEWH_Lorgar</defName>
+        <texPath>UI/Xenotypes/BEWH_Lorgar</texPath>
+    </XenotypeIconDef>
+
+    <!-- Vulkan -->
+    <XenotypeIconDef>
+        <defName>BEWH_Vulkan</defName>
+        <texPath>UI/Xenotypes/BEWH_Vulkan</texPath>
+    </XenotypeIconDef>
+
+    <!-- Corvus Corax -->
+    <XenotypeIconDef>
+        <defName>BEWH_Corvus</defName>
+        <texPath>UI/Xenotypes/BEWH_Corvus</texPath>
+    </XenotypeIconDef>
+
+    <!-- Alpharius -->
+    <XenotypeIconDef>
+        <defName>BEWH_AlphaOmega</defName>
+        <texPath>UI/Xenotypes/BEWH_AlphaOmega</texPath>
+    </XenotypeIconDef>
+
+    <!-- SUCCESSOR CHAPTERS -->
+
+    <!-- Black Templars -->
+    <XenotypeIconDef>
+        <defName>FERP_BlackTemplars</defName>
+        <texPath>UI/Xenotypes/FERP_BlackTemplars</texPath>
+    </XenotypeIconDef>
+
+</Defs>

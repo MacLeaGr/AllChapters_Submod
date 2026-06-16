@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+<!-- Neophyte -->
+<Operation Class="PatchOperationAdd">
+        <xpath>Defs/Genes40k.ShoulderIconDef[defName = "BEWH_RankIconNeophyte"]/mustHaveRank</xpath>
+        <value>
+            <li>FERP_EmperorsSpearsRankNeophyte</li>
+        </value>
+    </Operation>
+
+<!-- Battle-Brother -->
+<Operation Class="PatchOperationAdd">
+        <xpath>Defs/Genes40k.ShoulderIconDef[defName = "BEWH_RankIconBattleBrother"]/mustHaveRank</xpath>
+        <value>
+            <li>FERP_EmperorsSpearsRankBattleBrother</li>
+        </value>
+    </Operation>
+
+<!-- Veteran -->
+<Operation Class="PatchOperationAdd">
+        <xpath>Defs/Genes40k.ShoulderIconDef[defName = "BEWH_RankIconVeteran"]/mustHaveRank</xpath>
+        <value>
+            <li>FERP_EmperorsSpearsRankVeteran</li>
+        </value>
+    </Operation>
+
+<!-- Sergeant -->
+<Operation Class="PatchOperationAdd">
+        <xpath>Defs/Genes40k.ShoulderIconDef[defName = "BEWH_RankIconSergeant"]/mustHaveRank</xpath>
+        <value>
+            <li>FERP_EmperorsSpearsRankSergeant</li>
+        </value>
+    </Operation>
+
+<!-- Lieutenant -->
+<Operation Class="PatchOperationAdd">
+        <xpath>Defs/Genes40k.ShoulderIconDef[defName = "BEWH_RankIconLieutenant"]/mustHaveRank</xpath>
+        <value>
+            <li>FERP_EmperorsSpearsRankLieutenant</li>
+        </value>
+    </Operation>
+
+<!-- Captain = Warhost Lord -->
+<Operation Class="PatchOperationAdd">
+        <xpath>Defs/Genes40k.ShoulderIconDef[defName = "BEWH_RankIconCaptain"]/mustHaveRank</xpath>
+        <value>
+            <li>FERP_EmperorsSpearsRankWarhostLord</li>
+        </value>
+    </Operation>
+
+<!-- Chapter Master = High King -->
+<Operation Class="PatchOperationAdd">
+        <xpath>Defs/Genes40k.ShoulderIconDef[defName = "BEWH_RankIconChapterMaster"]/mustHaveRank</xpath>
+        <value>
+            <li>FERP_EmperorsSpearsRankHighKing</li>
+        </value>
+    </Operation>
+
+<!-- Vanguard -->
+<Operation Class="PatchOperationAdd">
+        <xpath>Defs/Genes40k.ShoulderIconDef[defName = "BEWH_RankIconVanguard"]/mustHaveRank</xpath>
+        <value>
+            <li>FERP_EmperorsSpearsRankVanguard</li>
+        </value>
+    </Operation>
+
+<!-- Chapter Ancient -->
+<Operation Class="PatchOperationAdd">
+        <xpath>Defs/Genes40k.ShoulderIconDef[defName = "BEWH_RankIconChapterAncient"]/mustHaveRank</xpath>
+        <value>
+            <li>FERP_EmperorsSpearsRankChapterAncient</li>
+        </value>
+    </Operation>
+
+<!-- Helix Adept -->
+<Operation Class="PatchOperationAdd">
+        <xpath>Defs/Genes40k.ShoulderIconDef[defName = "BEWH_RankIconHelixAdept"]/mustHaveRank</xpath>
+        <value>
+            <li>FERP_EmperorsSpearsRankHelixAdept</li>
+        </value>
+    </Operation>
+
+<!-- Apothecary -->
+<Operation Class="PatchOperationAdd">
+        <xpath>Defs/Genes40k.ShoulderIconDef[defName = "BEWH_RankIconApothecary"]/mustHaveRank</xpath>
+        <value>
+            <li>FERP_EmperorsSpearsRankApothecary</li>
+        </value>
+    </Operation>
+
+<!-- Master of the Apothecarion -->
+<Operation Class="PatchOperationAdd">
+        <xpath>Defs/Genes40k.ShoulderIconDef[defName = "BEWH_RankIconMasterOfTheApothecarion"]/mustHaveRank</xpath>
+        <value>
+            <li>FERP_EmperorsSpearsRankMasterOfTheApothecarion</li>
+        </value>
+    </Operation>
+
+<!-- Techmarine Novitiate -->
+<Operation Class="PatchOperationAdd">
+        <xpath>Defs/Genes40k.ShoulderIconDef[defName = "BEWH_RankIconTechmarineNovitiate"]/mustHaveRank</xpath>
+        <value>
+            <li>FERP_EmperorsSpearsRankTechmarineNovitiate</li>
+        </value>
+    </Operation>
+
+<!-- Techmarine -->
+<Operation Class="PatchOperationAdd">
+        <xpath>Defs/Genes40k.ShoulderIconDef[defName = "BEWH_RankIconTechmarine"]/mustHaveRank</xpath>
+        <value>
+            <li>FERP_EmperorsSpearsRankTechmarine</li>
+        </value>
+    </Operation>
+
+<!-- Master of the Forge -->
+<Operation Class="PatchOperationAdd">
+        <xpath>Defs/Genes40k.ShoulderIconDef[defName = "BEWH_RankIconMasterOfTheForge"]/mustHaveRank</xpath>
+        <value>
+            <li>FERP_EmperorsSpearsRankMasterOfTheForge</li>
+        </value>
+    </Operation>
+
+<!-- Acolytum -->
+<Operation Class="PatchOperationAdd">
+        <xpath>Defs/Genes40k.ShoulderIconDef[defName = "BEWH_RankIconAcolytum"]/mustHaveRank</xpath>
+        <value>
+            <li>FERP_EmperorsSpearsRankAcolytum</li>
+        </value>
+    </Operation>
+
+<!-- Librarian -->
+<Operation Class="PatchOperationAdd">
+        <xpath>Defs/Genes40k.ShoulderIconDef[defName = "BEWH_RankIconLibrarian"]/mustHaveRank</xpath>
+        <value>
+            <li>FERP_EmperorsSpearsRankLibrarian</li>
+        </value>
+    </Operation>
+
+<!-- Chief Librarian -->
+<Operation Class="PatchOperationAdd">
+        <xpath>Defs/Genes40k.ShoulderIconDef[defName = "BEWH_RankIconChiefLibrarian"]/mustHaveRank</xpath>
+        <value>
+            <li>FERP_EmperorsSpearsRankChiefLibrarian</li>
+        </value>
+    </Operation>
+
+<!-- Judiciar -->
+<Operation Class="PatchOperationAdd">
+        <xpath>Defs/Genes40k.ShoulderIconDef[defName = "BEWH_RankIconJudiciar"]/mustHaveRank</xpath>
+        <value>
+            <li>FERP_EmperorsSpearsRankJudiciar</li>
+        </value>
+    </Operation>
+
+<!-- Chaplain = War-Priest -->
+<Operation Class="PatchOperationAdd">
+        <xpath>Defs/Genes40k.ShoulderIconDef[defName = "BEWH_RankIconChaplain"]/mustHaveRank</xpath>
+        <value>
+            <li>FERP_EmperorsSpearsRankWarPriest</li>
+        </value>
+    </Operation>
+
+<!-- Master of Sanctity = High War-Priest -->
+<Operation Class="PatchOperationAdd">
+        <xpath>Defs/Genes40k.ShoulderIconDef[defName = "BEWH_RankIconMasterOfSanctity"]/mustHaveRank</xpath>
+        <value>
+            <li>FERP_EmperorsSpearsRankHighWarPriest</li>
+        </value>
+    </Operation>
+
+<!-- Fire Support -->
+<Operation Class="PatchOperationAdd">
+        <xpath>Defs/Genes40k.ShoulderIconDef[defName = "BEWH_RankIconDevastator"]/mustHaveRank</xpath>
+        <value>
+            <li>FERP_EmperorsSpearsRankDevastator</li>
+        </value>
+    </Operation>
+
+<!-- Fire Support Sergeant -->
+<Operation Class="PatchOperationAdd">
+        <xpath>Defs/Genes40k.ShoulderIconDef[defName = "BEWH_RankIconDevastatorSergeant"]/mustHaveRank</xpath>
+        <value>
+            <li>FERP_EmperorsSpearsRankDevastatorSergeant</li>
+        </value>
+    </Operation>
+
+<!-- Close Support -->
+<Operation Class="PatchOperationAdd">
+        <xpath>Defs/Genes40k.ShoulderIconDef[defName = "BEWH_RankIconAssault"]/mustHaveRank</xpath>
+        <value>
+            <li>FERP_EmperorsSpearsRankAssault</li>
+        </value>
+    </Operation>
+
+<!-- Close Support Sergeant -->
+<Operation Class="PatchOperationAdd">
+        <xpath>Defs/Genes40k.ShoulderIconDef[defName = "BEWH_RankIconAssaultSergeant"]/mustHaveRank</xpath>
+        <value>
+            <li>FERP_EmperorsSpearsRankAssaultSergeant</li>
+        </value>
+    </Operation>
+</Patch>

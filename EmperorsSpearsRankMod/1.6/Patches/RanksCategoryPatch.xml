@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+<!-- Base Example
+<Operation Class="PatchOperationAdd">
+        <xpath>Defs/Genes40k.ShoulderIconDef[defName = "BEWH_RankIconNeophyte"]/mustHaveRank</xpath>
+        <value>
+            <li>BEWH_AstartesRankNeophyte</li>
+            <li>FERP_EmperorsSpearsRankNeophyte</li>
+        </value>
+    </Operation>
+-->
+
+    <!-- Add to Astartes -->
+<Operation Class="PatchOperationAdd">
+        <xpath>Defs/Core40k.RankCategoryDef[defName = "BEWH_AstartesRankCategory"]</xpath>
+        <value>
+            <lockedByGene>SHAD_ChapterXEmperorsSpears</lockedByGene>
+        </value>
+    </Operation>
+
+    <!-- Add Emperor's Spears -->
+<Operation Class="PatchOperationInsert">
+        <xpath>Defs/Core40k.RankCategoryDef[defName = "BEWH_AstartesRankCategory"]</xpath>
+        <order>Append</order>
+        <value>
+            <Core40k.RankCategoryDef>
+                <defName>FERP_EmperorsSpearsRankCategory</defName>
+                <label>Emperor's Spears</label>
+                <description>Ranks of the Emperor's Spears.</description>
+                <unlockedByGene>SHAD_ChapterXEmperorsSpears</unlockedByGene>
+                <ranks>
+                    <!-- Main line -->
+                    <li>
+                        <rankDef>FERP_EmperorsSpearsRankNeophyte</rankDef>
+                        <displayPosition>(0, 0)</displayPosition>
+                    </li>
+                    <li>
+                        <rankDef>FERP_EmperorsSpearsRankBattleBrother</rankDef>
+                        <displayPosition>(2, 0)</displayPosition>
+                        <rankRequirements>
+                            <FERP_EmperorsSpearsRankNeophyte>5</FERP_EmperorsSpearsRankNeophyte>
+                        </rankRequirements>
+                    </li>
+                    <li>
+                        <rankDef>FERP_EmperorsSpearsRankVeteran</rankDef>
+                        <displayPosition>(3, -2)</displayPosition>
+                        <rankRequirements>
+                            <FERP_EmperorsSpearsRankBattleBrother>12</FERP_EmperorsSpearsRankBattleBrother>
+                        </rankRequirements>
+                    </li>
+                    <li>
+                        <rankDef>FERP_EmperorsSpearsRankSergeant</rankDef>
+                        <displayPosition>(5, -2)</displayPosition>
+                        <rankRequirements>
+                            <FERP_EmperorsSpearsRankVeteran>10</FERP_EmperorsSpearsRankVeteran>
+                        </rankRequirements>
+                    </li>
+                    <li>
+                        <rankDef>FERP_EmperorsSpearsRankLieutenant</rankDef>
+                        <displayPosition>(8, 0)</displayPosition>
+                        <rankRequirements>
+                            <FERP_EmperorsSpearsRankSergeant>15</FERP_EmperorsSpearsRankSergeant>
+                            <FERP_EmperorsSpearsRankDevastatorSergeant>8</FERP_EmperorsSpearsRankDevastatorSergeant>
+                            <FERP_EmperorsSpearsRankAssaultSergeant>8</FERP_EmperorsSpearsRankAssaultSergeant>
+                        </rankRequirements>
+                    </li>
+                    <li>
+                        <rankDef>FERP_EmperorsSpearsRankWarhostLord</rankDef>
+                        <displayPosition>(10, 0)</displayPosition>
+                        <rankRequirements>
+                            <FERP_EmperorsSpearsRankLieutenant>25</FERP_EmperorsSpearsRankLieutenant>
+                        </rankRequirements>
+                    </li>
+                    <li>
+                        <rankDef>FERP_EmperorsSpearsRankHighKing</rankDef>
+                        <displayPosition>(14, 0)</displayPosition>
+                        <rankRequirements>
+                            <FERP_EmperorsSpearsRankWarhostLord>40</FERP_EmperorsSpearsRankWarhostLord>
+                        </rankRequirements>
+                    </li>
+                    <!-- Misc -->
+                    <li>
+                        <rankDef>FERP_EmperorsSpearsRankVanguard</rankDef>
+                        <displayPosition>(1, -1)</displayPosition>
+                        <rankRequirements>
+                            <FERP_EmperorsSpearsRankBattleBrother>7</FERP_EmperorsSpearsRankBattleBrother>
+                        </rankRequirements>
+                    </li>
+                    <li>
+                        <rankDef>FERP_EmperorsSpearsRankChapterAncient</rankDef>
+                        <displayPosition>(9, -1)</displayPosition>
+                        <rankRequirements>
+                            <FERP_EmperorsSpearsRankLieutenant>10</FERP_EmperorsSpearsRankLieutenant>
+                        </rankRequirements>
+                    </li>
+                    <!-- Apothecary -->
+                    <li>
+                        <rankDef>FERP_EmperorsSpearsRankHelixAdept</rankDef>
+                        <displayPosition>(4, 1)</displayPosition>
+                        <rankRequirements>
+                            <FERP_EmperorsSpearsRankBattleBrother>7</FERP_EmperorsSpearsRankBattleBrother>
+                        </rankRequirements>
+                    </li>
+                    <li>
+                        <rankDef>FERP_EmperorsSpearsRankApothecary</rankDef>
+                        <displayPosition>(6, 1)</displayPosition>
+                        <rankRequirements>
+                            <FERP_EmperorsSpearsRankHelixAdept>15</FERP_EmperorsSpearsRankHelixAdept>
+                        </rankRequirements>
+                    </li>
+                    <li>
+                        <rankDef>FERP_EmperorsSpearsRankMasterOfTheApothecarion</rankDef>
+                        <displayPosition>(9, 1)</displayPosition>
+                        <rankRequirements>
+                            <FERP_EmperorsSpearsRankApothecary>35</FERP_EmperorsSpearsRankApothecary>
+                        </rankRequirements>
+                    </li>
+                    <!-- Techmarine -->
+                    <li>
+                        <rankDef>FERP_EmperorsSpearsRankTechmarineNovitiate</rankDef>
+                        <displayPosition>(4, 2)</displayPosition>
+                        <rankRequirements>
+                            <FERP_EmperorsSpearsRankBattleBrother>7</FERP_EmperorsSpearsRankBattleBrother>
+                        </rankRequirements>
+                    </li>
+                    <li>
+                        <rankDef>FERP_EmperorsSpearsRankTechmarine</rankDef>
+                        <displayPosition>(6, 2)</displayPosition>
+                        <rankRequirements>
+                            <FERP_EmperorsSpearsRankTechmarineNovitiate>15</FERP_EmperorsSpearsRankTechmarineNovitiate>
+                        </rankRequirements>
+                    </li>
+                    <li>
+                        <rankDef>FERP_EmperorsSpearsRankMasterOfTheForge</rankDef>
+                        <displayPosition>(9, 2)</displayPosition>
+                        <rankRequirements>
+                            <FERP_EmperorsSpearsRankTechmarine>35</FERP_EmperorsSpearsRankTechmarine>
+                        </rankRequirements>
+                    </li>
+                    <!-- Librarian -->
+                    <li>
+                        <rankDef>FERP_EmperorsSpearsRankAcolytum</rankDef>
+                        <displayPosition>(4, 3)</displayPosition>
+                        <rankRequirements>
+                            <FERP_EmperorsSpearsRankBattleBrother>7</FERP_EmperorsSpearsRankBattleBrother>
+                        </rankRequirements>
+                    </li>
+                    <li>
+                        <rankDef>FERP_EmperorsSpearsRankLibrarian</rankDef>
+                        <displayPosition>(6, 3)</displayPosition>
+                        <rankRequirements>
+                            <FERP_EmperorsSpearsRankAcolytum>15</FERP_EmperorsSpearsRankAcolytum>
+                        </rankRequirements>
+                    </li>
+                    <li>
+                        <rankDef>FERP_EmperorsSpearsRankChiefLibrarian</rankDef>
+                        <displayPosition>(9, 3)</displayPosition>
+                        <rankRequirements>
+                            <FERP_EmperorsSpearsRankLibrarian>35</FERP_EmperorsSpearsRankLibrarian>
+                        </rankRequirements>
+                    </li>
+                    <!-- Chaplain -->
+                    <li>
+                        <rankDef>FERP_EmperorsSpearsRankJudiciar</rankDef>
+                        <displayPosition>(4, -3)</displayPosition>
+                        <rankRequirements>
+                            <FERP_EmperorsSpearsRankVeteran>5</FERP_EmperorsSpearsRankVeteran>
+                        </rankRequirements>
+                    </li>
+                    <li>
+                        <rankDef>FERP_EmperorsSpearsRankWarPriest</rankDef>
+                        <displayPosition>(6, -3)</displayPosition>
+                        <rankRequirements>
+                            <FERP_EmperorsSpearsRankJudiciar>15</FERP_EmperorsSpearsRankJudiciar>
+                        </rankRequirements>
+                    </li>
+                    <li>
+                        <rankDef>FERP_EmperorsSpearsRankHighWarPriest</rankDef>
+                        <displayPosition>(9, -3)</displayPosition>
+                        <rankRequirements>
+                            <FERP_EmperorsSpearsRankWarPriest>35</FERP_EmperorsSpearsRankWarPriest>
+                        </rankRequirements>
+                    </li>
+                    <!-- Fire Support -->
+                    <li>
+                        <rankDef>FERP_EmperorsSpearsRankDevastator</rankDef>
+                        <displayPosition>(3, -1)</displayPosition>
+                        <rankRequirements>
+                            <FERP_EmperorsSpearsRankBattleBrother>3</FERP_EmperorsSpearsRankBattleBrother>
+                        </rankRequirements>
+                    </li>
+                    <li>
+                        <rankDef>FERP_EmperorsSpearsRankDevastatorSergeant</rankDef>
+                        <displayPosition>(5, -1)</displayPosition>
+                        <rankRequirements>
+                            <FERP_EmperorsSpearsRankDevastator>8</FERP_EmperorsSpearsRankDevastator>
+                        </rankRequirements>
+                    </li>
+                    <!-- Close Support -->
+                    <li>
+                        <rankDef>FERP_EmperorsSpearsRankAssault</rankDef>
+                        <displayPosition>(3, 0)</displayPosition>
+                        <rankRequirements>
+                            <FERP_EmperorsSpearsRankBattleBrother>3</FERP_EmperorsSpearsRankBattleBrother>
+                        </rankRequirements>
+                    </li>
+                    <li>
+                        <rankDef>FERP_EmperorsSpearsRankAssaultSergeant</rankDef>
+                        <displayPosition>(5, 0)</displayPosition>
+                        <rankRequirements>
+                            <FERP_EmperorsSpearsRankAssault>8</FERP_EmperorsSpearsRankAssault>
+                        </rankRequirements>
+                    </li>
+                </ranks>
+            </Core40k.RankCategoryDef>
+        </value>
+    </Operation>
+
+</Patch>

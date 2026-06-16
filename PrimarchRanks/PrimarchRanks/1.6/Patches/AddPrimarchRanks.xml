@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <!-- Replace in Astartes -->
+<Operation Class="PatchOperationReplace"> <!-- EDIT TO REMOVE CHAPTER MASTER -->
+        <xpath>Defs/Core40k.RankCategoryDef[defName = "BEWH_PrimarchRankCategory"]/ranks</xpath>
+            <value>
+                <ranks>
+                    <li><!--The Lion-->
+                        <rankDef>FERP_PrimarchRankI</rankDef>
+                        <displayPosition>(2, -2)</displayPosition>
+                    </li>
+                    <li><!--The Old Lion-->
+                        <rankDef>FERP_OPrimarchRankI</rankDef>
+                        <displayPosition>(2, -3)</displayPosition>
+
+                        <rankRequirements>
+                            <FERP_PrimarchRankI>5</FERP_PrimarchRankI>
+                        </rankRequirements>
+                    </li>
+                    <li><!--Lost Primarch-->
+                        <rankDef>FERP_PrimarchRankII</rankDef>
+                        <displayPosition>(3, -2)</displayPosition>
+
+                        <rankRequirements> <!-- Always Locked-->
+                            <FERP_PrimarchRankII>5</FERP_PrimarchRankII>
+                        </rankRequirements>
+                    </li>
+                    <li><!--Fulgrim-->
+                        <rankDef>FERP_PrimarchRankIII</rankDef>
+                        <displayPosition>(4, -2)</displayPosition>
+                    </li>
+                    <li><!--Corrupted Fulgrim-->
+                        <rankDef>FERP_CPrimarchRankIII</rankDef>
+                        <displayPosition>(4, -3)</displayPosition>
+
+                        <rankRequirements>
+                            <FERP_PrimarchRankIII>5</FERP_PrimarchRankIII>
+                        </rankRequirements>
+                    </li>
+                    <li><!--Perturabo-->
+                        <rankDef>FERP_PrimarchRankIV</rankDef>
+                        <displayPosition>(5, -2)</displayPosition>
+                    </li>
+                    <li><!--Corrupted Perturabo-->
+                        <rankDef>FERP_CPrimarchRankIV</rankDef>
+                        <displayPosition>(5, -3)</displayPosition>
+
+                        <rankRequirements>
+                            <FERP_PrimarchRankIV>5</FERP_PrimarchRankIV>
+                        </rankRequirements>
+                    </li>
+                    <li><!--Jaghatai Khan-->
+                        <rankDef>FERP_PrimarchRankV</rankDef>
+                        <displayPosition>(6, -2)</displayPosition>
+                    </li>
+                    <li><!--Leman Russ-->
+                        <rankDef>FERP_PrimarchRankVI</rankDef>
+                        <displayPosition>(8, -2)</displayPosition>
+                    </li>
+                    <li><!--Rogal Dorn-->
+                        <rankDef>FERP_PrimarchRankVII</rankDef>
+                        <displayPosition>(9, -2)</displayPosition>
+                    </li>
+                    <li><!--Konrad Curze-->
+                        <rankDef>FERP_PrimarchRankVIII</rankDef>
+                        <displayPosition>(10, -2)</displayPosition>
+                    </li>
+                    <li><!--Corrupted Konrad Curze-->
+                        <rankDef>FERP_CPrimarchRankVIII</rankDef>
+                        <displayPosition>(10, -3)</displayPosition>
+
+                        <rankRequirements>
+                            <FERP_PrimarchRankVIII>5</FERP_PrimarchRankVIII>
+                        </rankRequirements>
+                    </li>
+                    <li><!--Sanguinius-->
+                        <rankDef>FERP_PrimarchRankIX</rankDef>
+                        <displayPosition>(11, -2)</displayPosition>
+                    </li>
+                    <li><!--Ferrus-->
+                        <rankDef>FERP_PrimarchRankX</rankDef>
+                        <displayPosition>(12, -2)</displayPosition>
+                    </li>
+                    <li><!--Lost Primarch-->
+                        <rankDef>FERP_PrimarchRankXI</rankDef>
+                        <displayPosition>(2, 2)</displayPosition>
+
+                        <rankRequirements> <!-- Always Locked-->
+                            <FERP_PrimarchRankXI>5</FERP_PrimarchRankXI>
+                        </rankRequirements>
+                    </li>
+                    <li><!--Angron-->
+                        <rankDef>FERP_PrimarchRankXII</rankDef>
+                        <displayPosition>(3, 2)</displayPosition>
+                    </li>
+                    <li><!--Corrupted Angron-->
+                        <rankDef>FERP_CPrimarchRankXII</rankDef>
+                        <displayPosition>(3, 3)</displayPosition>
+
+                        <rankRequirements>
+                            <FERP_PrimarchRankXII>5</FERP_PrimarchRankXII>
+                        </rankRequirements>
+                    </li>
+                    <li><!--Robute Guilliman-->
+                        <rankDef>FERP_PrimarchRankXIII</rankDef>
+                        <displayPosition>(4, 2)</displayPosition>
+                    </li>
+                    <li><!--Older Robute Guilliman-->
+                        <rankDef>FERP_OPrimarchRankXIII</rankDef>
+                        <displayPosition>(4, 3)</displayPosition>
+
+                        <rankRequirements>
+                            <FERP_PrimarchRankXIII>5</FERP_PrimarchRankXIII>
+                        </rankRequirements>
+                    </li>
+                    <li><!--Mortarion-->
+                        <rankDef>FERP_PrimarchRankXIV</rankDef>
+                        <displayPosition>(5, 2)</displayPosition>
+                    </li>
+                    <li><!--Corrupted Mortarion-->
+                        <rankDef>FERP_CPrimarchRankXIV</rankDef>
+                        <displayPosition>(5, 3)</displayPosition>
+
+                        <rankRequirements>
+                            <FERP_PrimarchRankXIV>5</FERP_PrimarchRankXIV>
+                        </rankRequirements>
+                    </li>
+                    <li><!--Magnus-->
+                        <rankDef>FERP_PrimarchRankXV</rankDef>
+                        <displayPosition>(6, 2)</displayPosition>
+                    </li>
+                    <li><!--Corrupted Magnus-->
+                        <rankDef>FERP_CPrimarchRankXV</rankDef>
+                        <displayPosition>(6, 3)</displayPosition>
+
+                        <rankRequirements>
+                            <FERP_PrimarchRankXV>5</FERP_PrimarchRankXV>
+                        </rankRequirements>
+                    </li>
+                    <li><!--Horus Lupercal-->
+                        <rankDef>FERP_PrimarchRankXVI</rankDef>
+                        <displayPosition>(8, 2)</displayPosition>
+                    </li>
+                    <li><!--Corrupted Horus Lupercal-->
+                        <rankDef>FERP_CPrimarchRankXVI</rankDef>
+                        <displayPosition>(8, 3)</displayPosition>
+
+                        <rankRequirements>
+                            <FERP_PrimarchRankXVI>5</FERP_PrimarchRankXVI>
+                        </rankRequirements>
+                    </li>
+                    <li><!--Lorgar Aurelian-->
+                        <rankDef>FERP_PrimarchRankXVII</rankDef>
+                        <displayPosition>(9, 2)</displayPosition>
+                    </li>
+                    <li><!--Corrupted Lorgar Aurelian-->
+                        <rankDef>FERP_CPrimarchRankXVII</rankDef>
+                        <displayPosition>(9, 3)</displayPosition>
+
+                        <rankRequirements>
+                            <FERP_PrimarchRankXVII>5</FERP_PrimarchRankXVII>
+                        </rankRequirements>
+                    </li>
+                    <li><!--Vulkan-->
+                        <rankDef>FERP_PrimarchRankXVIII</rankDef>
+                        <displayPosition>(10, 2)</displayPosition>
+                    </li>
+                    <li><!--Corvus Corax-->
+                        <rankDef>FERP_PrimarchRankXIX</rankDef>
+                        <displayPosition>(11, 2)</displayPosition>
+                    </li>
+                    <li><!--"Corrupted" Corvus Corax-->
+                        <rankDef>FERP_CPrimarchRankXIX</rankDef>
+                        <displayPosition>(11, 3)</displayPosition>
+
+                        <rankRequirements>
+                            <FERP_PrimarchRankXIX>5</FERP_PrimarchRankXIX>
+                        </rankRequirements>
+                    </li>
+                    <li><!--Alpharius Omegon-->
+                        <rankDef>FERP_PrimarchRankXX</rankDef>
+                        <displayPosition>(12, 2)</displayPosition>
+                    </li>
+                    <li><!--Corrupted Alpharius Omegon-->
+                        <rankDef>FERP_CPrimarchRankXX</rankDef>
+                        <displayPosition>(12, 3)</displayPosition>
+
+                        <rankRequirements>
+                            <FERP_PrimarchRankXX>1</FERP_PrimarchRankXX>
+                        </rankRequirements>
+                    </li>
+                    <li><!--Warmaster-->
+                        <rankDef>FERP_PrimarchRankWarmaster</rankDef>
+                        <displayPosition>(7, 0)</displayPosition>
+
+                        <rankRequirementsOneAmong>
+                            <FERP_PrimarchRankI>10</FERP_PrimarchRankI>
+                            <FERP_PrimarchRankII>10</FERP_PrimarchRankII>
+                            <FERP_PrimarchRankIII>10</FERP_PrimarchRankIII>
+                            <FERP_PrimarchRankIV>10</FERP_PrimarchRankIV>
+                            <FERP_PrimarchRankV>10</FERP_PrimarchRankV>
+                            <FERP_PrimarchRankVI>10</FERP_PrimarchRankVI>
+                            <FERP_PrimarchRankVII>10</FERP_PrimarchRankVII>
+                            <FERP_PrimarchRankVIII>10</FERP_PrimarchRankVIII>
+                            <FERP_PrimarchRankIX>10</FERP_PrimarchRankIX>
+                            <FERP_PrimarchRankX>10</FERP_PrimarchRankX>
+                            <FERP_PrimarchRankXI>10</FERP_PrimarchRankXI>
+                            <FERP_PrimarchRankXII>10</FERP_PrimarchRankXII>
+                            <FERP_PrimarchRankXIII>10</FERP_PrimarchRankXIII>
+                            <FERP_PrimarchRankXIV>10</FERP_PrimarchRankXIV>
+                            <FERP_PrimarchRankXV>10</FERP_PrimarchRankXV>
+                            <FERP_PrimarchRankXVI>10</FERP_PrimarchRankXVI>
+                            <FERP_PrimarchRankXVII>10</FERP_PrimarchRankXVII>
+                            <FERP_PrimarchRankXVIII>10</FERP_PrimarchRankXVIII>
+                            <FERP_PrimarchRankXIX>10</FERP_PrimarchRankXIX>
+                            <FERP_PrimarchRankXX>10</FERP_PrimarchRankXX>
+                        </rankRequirementsOneAmong>
+                    </li>
+                </ranks>
+            </value>
+    </Operation>
+
+</Patch>

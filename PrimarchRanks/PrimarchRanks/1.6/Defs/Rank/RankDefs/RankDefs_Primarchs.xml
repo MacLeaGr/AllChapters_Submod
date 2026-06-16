@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <!-- Update Sept 17th, added steel rain to all base primarch ranks.-->
+    
+    <!-- ====Primarchs==== -->
+    <!-- I -->
+    <Genes40k.ChapterRankDef>
+        <defName>FERP_PrimarchRankI</defName>
+        <label>First Legion Primarch</label>
+        <description>x</description>
+        <rankIconPath>UI/Ranks/Primarchs/BEWH_iconUI_Legion_IDarkAngels</rankIconPath>
+        <colonyLimitOfRank>(1, 0)</colonyLimitOfRank>
+
+        <requiredGenesAll>
+            <li>BEWH_PrimarchSpecificGeneI</li>
+        </requiredGenesAll>
+
+        <givesVFEAbilities>
+            <li>BEWH_ChapterMasterSteelRain</li>
+        </givesVFEAbilities>
+
+        <givesAbilities>
+            <li>FERP_PrimarchsOrder</li>
+        </givesAbilities>
+
+        <rankTier>0</rankTier>
+
+    </Genes40k.ChapterRankDef>
+    <!-- Old I -->
+    <Genes40k.ChapterRankDef>
+        <defName>FERP_OPrimarchRankI</defName>
+        <label>First Legion Primarch</label>
+        <description>x</description>
+        <rankIconPath>UI/Ranks/Primarchs/BEWH_iconUI_Legion_IDarkAngels</rankIconPath>
+        <colonyLimitOfRank>(1, 0)</colonyLimitOfRank>
+
+        <rankTier>1</rankTier>
+
+    </Genes40k.ChapterRankDef>
+
+    <!-- II -->
+    <Genes40k.ChapterRankDef>
+        <defName>FERP_PrimarchRankII</defName>
+        <label>Second Legion Primarch</label>
+        <description>x</description>
+        <rankIconPath>UI/Ranks/Primarchs/BEWH_NoneSingle</rankIconPath>
+        <colonyLimitOfRank>(1, 0)</colonyLimitOfRank>
+
+        <givesVFEAbilities>
+            <li>BEWH_ChapterMasterSteelRain</li>
+        </givesVFEAbilities>
+
+        <givesAbilities>
+            <li>FERP_PrimarchsOrder</li>
+        </givesAbilities>
+
+        <rankTier>0</rankTier>
+
+    </Genes40k.ChapterRankDef>
+
+    <!-- III -->
+    <Genes40k.ChapterRankDef>
+        <defName>FERP_PrimarchRankIII</defName>
+        <label>Third Legion Primarch</label>
+        <description>x</description>
+        <rankIconPath>UI/Ranks/Primarchs/BEWH_iconUI_Legion_IIIEmperorsChildrenPRE</rankIconPath>
+        <colonyLimitOfRank>(1, 0)</colonyLimitOfRank>
+
+        <requiredGenesAll>
+            <li>BEWH_PrimarchSpecificGeneIII</li>
+        </requiredGenesAll>
+
+        <givesVFEAbilities>
+            <li>BEWH_ChapterMasterSteelRain</li>
+        </givesVFEAbilities>
+
+        <givesAbilities>
+            <li>FERP_PrimarchsOrder</li>
+        </givesAbilities>
+
+        <rankTier>0</rankTier>
+
+    </Genes40k.ChapterRankDef>
+    <!-- Corrupted III -->
+    <Genes40k.ChapterRankDef>
+        <defName>FERP_CPrimarchRankIII</defName>
+        <label>Corrupted Third Legion Primarch</label>
+        <description>x</description>
+        <rankIconPath>UI/Ranks/Primarchs/BEWH_iconUI_Legion_IIIEmperorsChildrenPRE</rankIconPath>
+        <colonyLimitOfRank>(1, 0)</colonyLimitOfRank>
+
+        <rankTier>1</rankTier>
+
+    </Genes40k.ChapterRankDef>
+
+    <!-- IV -->
+    <Genes40k.ChapterRankDef>
+        <defName>FERP_PrimarchRankIV</defName>
+        <label>Fourth Legion Primarch</label>
+        <description>x</description>
+        <rankIconPath>UI/Ranks/Primarchs/BEWH_iconUI_Legion_IVIronWarriorsPRE</rankIconPath>
+        <colonyLimitOfRank>(1, 0)</colonyLimitOfRank>
+
+        <requiredGenesAll>
+            <li>BEWH_PrimarchSpecificGeneIV</li>
+        </requiredGenesAll>
+
+        <givesVFEAbilities>
+            <li>BEWH_ChapterMasterSteelRain</li>
+        </givesVFEAbilities>
+
+        <givesAbilities>
+            <li>FERP_PrimarchsOrder</li>
+        </givesAbilities>
+
+        <rankTier>0</rankTier>
+
+    </Genes40k.ChapterRankDef>
+    <!-- Corrupted IV -->
+    <Genes40k.ChapterRankDef>
+        <defName>FERP_CPrimarchRankIV</defName>
+        <label>Corrupted Fourth Legion Primarch</label>
+        <description>x</description>
+        <rankIconPath>UI/Ranks/Primarchs/BEWH_iconUI_Legion_IVIronWarriorsPRE</rankIconPath>
+        <colonyLimitOfRank>(1, 0)</colonyLimitOfRank>
+
+        <rankTier>0</rankTier>
+
+    </Genes40k.ChapterRankDef>
+
+    <!-- V -->
+    <Genes40k.ChapterRankDef>
+        <defName>FERP_PrimarchRankV</defName>
+        <label>Fifth Legion Primarch</label>
+        <description>x</description>
+        <rankIconPath>UI/Ranks/Primarchs/BEWH_iconUI_Legion_VWhiteScars</rankIconPath>
+        <colonyLimitOfRank>(1, 0)</colonyLimitOfRank>
+
+        <requiredGenesAll>
+            <li>BEWH_PrimarchSpecificGeneV</li>
+        </requiredGenesAll>
+
+        <givesVFEAbilities>
+            <li>BEWH_ChapterMasterSteelRain</li>
+        </givesVFEAbilities>
+
+        <givesAbilities>
+            <li>FERP_PrimarchsOrder</li>
+        </givesAbilities>
+
+        <rankTier>0</rankTier>
+
+    </Genes40k.ChapterRankDef>
+
+    <!-- VI -->
+    <Genes40k.ChapterRankDef>
+        <defName>FERP_PrimarchRankVI</defName>
+        <label>Sixth Legion Primarch</label>
+        <description>x</description>
+        <rankIconPath>UI/Ranks/Primarchs/BEWH_iconUI_Legion_VISpaceWolves</rankIconPath>
+        <colonyLimitOfRank>(1, 0)</colonyLimitOfRank>
+
+        <requiredGenesAll>
+            <li>BEWH_PrimarchSpecificGeneVI</li>
+        </requiredGenesAll>
+
+        <givesVFEAbilities>
+            <li>BEWH_ChapterMasterSteelRain</li>
+        </givesVFEAbilities>
+
+        <givesAbilities>
+            <li>FERP_PrimarchsOrder</li>
+        </givesAbilities>
+
+        <rankTier>0</rankTier>
+
+    </Genes40k.ChapterRankDef>
+
+    <!-- VII -->
+    <Genes40k.ChapterRankDef>
+        <defName>FERP_PrimarchRankVII</defName>
+        <label>Seventh Legion Primarch</label>
+        <description>x</description>
+        <rankIconPath>UI/Ranks/Primarchs/BEWH_iconUI_Legion_VIIImperialFists</rankIconPath>
+        <colonyLimitOfRank>(1, 0)</colonyLimitOfRank>
+
+        <requiredGenesAll>
+            <li>BEWH_PrimarchSpecificGeneVII</li>
+        </requiredGenesAll>
+
+        <givesVFEAbilities>
+            <li>BEWH_ChapterMasterSteelRain</li>
+        </givesVFEAbilities>
+
+        <givesAbilities>
+            <li>FERP_PrimarchsOrder</li>
+        </givesAbilities>
+
+        <rankTier>0</rankTier>
+
+    </Genes40k.ChapterRankDef>
+
+    <!-- VIII -->
+    <Genes40k.ChapterRankDef>
+        <defName>FERP_PrimarchRankVIII</defName>
+        <label>Eighth Legion Primarch</label>
+        <description>x</description>
+        <rankIconPath>UI/Ranks/Primarchs/BEWH_iconUI_Legion_VIIIINightLodsPRE</rankIconPath>
+        <colonyLimitOfRank>(1, 0)</colonyLimitOfRank>
+
+        <requiredGenesAll>
+            <li>BEWH_PrimarchSpecificGeneVIII</li>
+        </requiredGenesAll>
+
+        <givesVFEAbilities>
+            <li>BEWH_ChapterMasterSteelRain</li>
+        </givesVFEAbilities>
+
+        <givesAbilities>
+            <li>FERP_PrimarchsOrder</li>
+        </givesAbilities>
+
+        <rankTier>0</rankTier>
+
+    </Genes40k.ChapterRankDef>
+    <!-- Corrupted VIII -->
+    <Genes40k.ChapterRankDef>
+        <defName>FERP_CPrimarchRankVIII</defName>
+        <label>Corrupted Eighth Legion Primarch</label>
+        <description>x</description>
+        <rankIconPath>UI/Ranks/Primarchs/BEWH_iconUI_Legion_VIIIINightLodsPRE</rankIconPath>
+        <colonyLimitOfRank>(1, 0)</colonyLimitOfRank>
+
+        <rankTier>1</rankTier>
+
+    </Genes40k.ChapterRankDef>
+
+    <!-- IX -->
+    <Genes40k.ChapterRankDef>
+        <defName>FERP_PrimarchRankIX</defName>
+        <label>Ninth Legion Primarch</label>
+        <description>x</description>
+        <rankIconPath>UI/Ranks/Primarchs/BEWH_iconUI_Legion_IXBloodAngels</rankIconPath>
+        <colonyLimitOfRank>(1, 0)</colonyLimitOfRank>
+
+        <requiredGenesAll>
+            <li>BEWH_PrimarchSpecificGeneIX</li>
+        </requiredGenesAll>
+
+        <givesVFEAbilities>
+            <li>BEWH_ChapterMasterSteelRain</li>
+        </givesVFEAbilities>
+
+        <givesAbilities>
+            <li>FERP_PrimarchsOrder</li>
+        </givesAbilities>
+
+        <rankTier>0</rankTier>
+
+    </Genes40k.ChapterRankDef>
+
+    <!-- X -->
+    <Genes40k.ChapterRankDef>
+        <defName>FERP_PrimarchRankX</defName>
+        <label>Tenth Legion Primarch</label>
+        <description>x</description>
+        <rankIconPath>UI/Ranks/Primarchs/BEWH_iconUI_Legion_XIronHands</rankIconPath>
+        <colonyLimitOfRank>(1, 0)</colonyLimitOfRank>
+
+        <requiredGenesAll>
+            <li>BEWH_PrimarchSpecificGeneX</li>
+        </requiredGenesAll>
+
+        <givesVFEAbilities>
+            <li>BEWH_ChapterMasterSteelRain</li>
+        </givesVFEAbilities>
+
+        <givesAbilities>
+            <li>FERP_PrimarchsOrder</li>
+        </givesAbilities>
+
+        <rankTier>0</rankTier>
+
+    </Genes40k.ChapterRankDef>
+
+    <!-- XI -->
+    <Genes40k.ChapterRankDef>
+        <defName>FERP_PrimarchRankXI</defName>
+        <label>Eleventh Legion Primarch</label>
+        <description>x</description>
+        <rankIconPath>UI/Ranks/Primarchs/BEWH_NoneSingle</rankIconPath>
+        <colonyLimitOfRank>(1, 0)</colonyLimitOfRank>
+
+        <rankTier>0</rankTier>
+
+    </Genes40k.ChapterRankDef>
+
+    <!-- XII -->
+    <Genes40k.ChapterRankDef>
+        <defName>FERP_PrimarchRankXII</defName>
+        <label>Twelfth Legion Primarch</label>
+        <description>x</description>
+        <rankIconPath>UI/Ranks/Primarchs/BEWH_iconUI_Legion_XIIWorldEatersPRE</rankIconPath>
+        <colonyLimitOfRank>(1, 0)</colonyLimitOfRank>
+
+        <requiredGenesAll>
+            <li>BEWH_PrimarchSpecificGeneXII</li>
+        </requiredGenesAll>
+
+        <givesVFEAbilities>
+            <li>BEWH_ChapterMasterSteelRain</li>
+        </givesVFEAbilities>
+
+        <givesAbilities>
+            <li>FERP_PrimarchsOrder</li>
+        </givesAbilities>
+
+        <rankTier>0</rankTier>
+
+    </Genes40k.ChapterRankDef>
+    <!-- Corrupted XII -->
+    <Genes40k.ChapterRankDef>
+        <defName>FERP_CPrimarchRankXII</defName>
+        <label>Corrupted Twelfth Legion Primarch</label>
+        <description>x</description>
+        <rankIconPath>UI/Ranks/Primarchs/BEWH_iconUI_Legion_XIIWorldEatersPRE</rankIconPath>
+        <colonyLimitOfRank>(1, 0)</colonyLimitOfRank>
+
+        <rankTier>1</rankTier>
+
+    </Genes40k.ChapterRankDef>
+
+    <!-- XIII -->
+    <Genes40k.ChapterRankDef>
+        <defName>FERP_PrimarchRankXIII</defName>
+        <label>Thirteenth Legion Primarch</label>
+        <description>x</description>
+        <rankIconPath>UI/Ranks/Primarchs/BEWH_iconUI_Legion_XIIIUltramarines</rankIconPath>
+        <colonyLimitOfRank>(1, 0)</colonyLimitOfRank>
+
+        <requiredGenesAll>
+            <li>BEWH_PrimarchSpecificGeneXIII</li>
+        </requiredGenesAll>
+
+        <givesVFEAbilities>
+            <li>BEWH_ChapterMasterSteelRain</li>
+        </givesVFEAbilities>
+
+        <givesAbilities>
+            <li>FERP_PrimarchsOrder</li>
+        </givesAbilities>
+
+        <rankTier>0</rankTier>
+
+    </Genes40k.ChapterRankDef>
+    <!-- Older XIII -->
+    <Genes40k.ChapterRankDef>
+        <defName>FERP_OPrimarchRankXIII</defName>
+        <label>Older Thirteenth Legion Primarch</label>
+        <description>x</description>
+        <rankIconPath>UI/Ranks/Primarchs/BEWH_iconUI_Legion_XIIIUltramarines</rankIconPath>
+        <colonyLimitOfRank>(1, 0)</colonyLimitOfRank>
+
+        <rankTier>1</rankTier>
+
+    </Genes40k.ChapterRankDef>
+
+    <!-- XIV -->
+    <Genes40k.ChapterRankDef>
+        <defName>FERP_PrimarchRankXIV</defName>
+        <label>Fourteenth Legion Primarch</label>
+        <description>x</description>
+        <rankIconPath>UI/Ranks/Primarchs/BEWH_iconUI_Legion_XIVDeathGuardPRE</rankIconPath>
+        <colonyLimitOfRank>(1, 0)</colonyLimitOfRank>
+
+        <requiredGenesAll>
+            <li>BEWH_PrimarchSpecificGeneXIV</li>
+        </requiredGenesAll>
+
+        <givesVFEAbilities>
+            <li>BEWH_ChapterMasterSteelRain</li>
+        </givesVFEAbilities>
+
+        <givesAbilities>
+            <li>FERP_PrimarchsOrder</li>
+        </givesAbilities>
+
+        <rankTier>0</rankTier>
+
+    </Genes40k.ChapterRankDef>
+    <!-- Corrupted XIV -->
+    <Genes40k.ChapterRankDef>
+        <defName>FERP_CPrimarchRankXIV</defName>
+        <label>Corrupted Fourteenth Legion Primarch</label>
+        <description>x</description>
+        <rankIconPath>UI/Ranks/Primarchs/BEWH_iconUI_Legion_XIVDeathGuardPRE</rankIconPath>
+        <colonyLimitOfRank>(1, 0)</colonyLimitOfRank>
+
+        <rankTier>1</rankTier>
+
+    </Genes40k.ChapterRankDef>
+
+    <!-- XV -->
+    <Genes40k.ChapterRankDef>
+        <defName>FERP_PrimarchRankXV</defName>
+        <label>Fifteenth Legion Primarch</label>
+        <description>x</description>
+        <rankIconPath>UI/Ranks/Primarchs/BEWH_iconUI_Legion_XVThousandSonsPRE</rankIconPath>
+        <colonyLimitOfRank>(1, 0)</colonyLimitOfRank>
+
+        <requiredGenesAll>
+            <li>BEWH_PrimarchSpecificGeneXV</li>
+        </requiredGenesAll>
+
+        <givesVFEAbilities>
+            <li>BEWH_ChapterMasterSteelRain</li>
+        </givesVFEAbilities>
+
+        <givesAbilities>
+            <li>FERP_PrimarchsOrder</li>
+        </givesAbilities>
+
+        <rankTier>0</rankTier>
+
+    </Genes40k.ChapterRankDef>
+    <!-- Corrupted XV -->
+    <Genes40k.ChapterRankDef>
+        <defName>FERP_CPrimarchRankXV</defName>
+        <label>Corrupted Fifteenth Legion Primarch</label>
+        <description>x</description>
+        <rankIconPath>UI/Ranks/Primarchs/BEWH_iconUI_Legion_XVThousandSonsPRE</rankIconPath>
+        <colonyLimitOfRank>(1, 0)</colonyLimitOfRank>
+
+        <rankTier>1</rankTier>
+
+    </Genes40k.ChapterRankDef>
+
+    <!-- XVI -->
+    <Genes40k.ChapterRankDef>
+        <defName>FERP_PrimarchRankXVI</defName>
+        <label>Sixteenth Legion Primarch</label>
+        <description>x</description>
+        <rankIconPath>UI/Ranks/Primarchs/BEWH_iconUI_Legion_XVISonsOfHorusPRE</rankIconPath>
+        <colonyLimitOfRank>(1, 0)</colonyLimitOfRank>
+
+        <requiredGenesAll>
+            <li>BEWH_PrimarchSpecificGeneXVI</li>
+        </requiredGenesAll>
+
+        <givesVFEAbilities>
+            <li>BEWH_ChapterMasterSteelRain</li>
+        </givesVFEAbilities>
+
+        <givesAbilities>
+            <li>FERP_PrimarchsOrder</li>
+        </givesAbilities>
+
+        <rankTier>0</rankTier>
+
+    </Genes40k.ChapterRankDef>
+    <!-- Corrupted XVI -->
+    <Genes40k.ChapterRankDef>
+        <defName>FERP_CPrimarchRankXVI</defName>
+        <label>Corrupted Sixteenth Legion Primarch</label>
+        <description>x</description>
+        <rankIconPath>UI/Ranks/Primarchs/BEWH_iconUI_Legion_XVISonsOfHorusPRE</rankIconPath>
+        <colonyLimitOfRank>(1, 0)</colonyLimitOfRank>
+
+        <rankTier>1</rankTier>
+
+    </Genes40k.ChapterRankDef>
+
+    <!-- XVII -->
+    <Genes40k.ChapterRankDef>
+        <defName>FERP_PrimarchRankXVII</defName>
+        <label>Seventeenth Legion Primarch</label>
+        <description>x</description>
+        <rankIconPath>UI/Ranks/Primarchs/BEWH_iconUI_Legion_XVIIWordBearersPRE</rankIconPath>
+        <colonyLimitOfRank>(1, 0)</colonyLimitOfRank>
+
+        <requiredGenesAll>
+            <li>BEWH_PrimarchSpecificGeneXVII</li>
+        </requiredGenesAll>
+
+        <givesVFEAbilities>
+            <li>BEWH_ChapterMasterSteelRain</li>
+        </givesVFEAbilities>
+
+        <givesAbilities>
+            <li>FERP_PrimarchsOrder</li>
+        </givesAbilities>
+
+        <rankTier>0</rankTier>
+
+    </Genes40k.ChapterRankDef>
+    <!-- Corrupted XVII -->
+    <Genes40k.ChapterRankDef>
+        <defName>FERP_CPrimarchRankXVII</defName>
+        <label>Corrupted Seventeenth Legion Primarch</label>
+        <description>x</description>
+        <rankIconPath>UI/Ranks/Primarchs/BEWH_iconUI_Legion_XVIIWordBearersPRE</rankIconPath>
+        <colonyLimitOfRank>(1, 0)</colonyLimitOfRank>
+
+        <rankTier>1</rankTier>
+
+    </Genes40k.ChapterRankDef>
+
+    <!-- XVIII -->
+    <Genes40k.ChapterRankDef>
+        <defName>FERP_PrimarchRankXVIII</defName>
+        <label>Eighteenth Legion Primarch</label>
+        <description>x</description>
+        <rankIconPath>UI/Ranks/Primarchs/BEWH_iconUI_Legion_XVIIISalamanders</rankIconPath>
+        <colonyLimitOfRank>(1, 0)</colonyLimitOfRank>
+
+        <requiredGenesAll>
+            <li>BEWH_PrimarchSpecificGeneXVIII</li>
+        </requiredGenesAll>
+
+        <givesVFEAbilities>
+            <li>BEWH_ChapterMasterSteelRain</li>
+        </givesVFEAbilities>
+
+        <givesAbilities>
+            <li>FERP_PrimarchsOrder</li>
+        </givesAbilities>
+
+        <rankTier>0</rankTier>
+
+    </Genes40k.ChapterRankDef>
+
+    <!-- XIX -->
+    <Genes40k.ChapterRankDef>
+        <defName>FERP_PrimarchRankXIX</defName>
+        <label>Nineteenth Legion Primarch</label>
+        <description>x</description>
+        <rankIconPath>UI/Ranks/Primarchs/BEWH_iconUI_Legion_XIXRavenGuard</rankIconPath>
+        <colonyLimitOfRank>(1, 0)</colonyLimitOfRank>
+
+        <requiredGenesAll>
+            <li>BEWH_PrimarchSpecificGeneXIX</li>
+        </requiredGenesAll>
+
+        <givesVFEAbilities>
+            <li>BEWH_ChapterMasterSteelRain</li>
+        </givesVFEAbilities>
+
+        <givesAbilities>
+            <li>FERP_PrimarchsOrder</li>
+        </givesAbilities>
+
+        <rankTier>0</rankTier>
+
+    </Genes40k.ChapterRankDef>
+    <!-- "Corrupted" XIX -->
+    <Genes40k.ChapterRankDef>
+        <defName>FERP_CPrimarchRankXIX</defName>
+        <label>"Corrupted" Nineteenth Legion Primarch</label>
+        <description>x</description>
+        <rankIconPath>UI/Ranks/Primarchs/BEWH_iconUI_Legion_XIXRavenGuard</rankIconPath>
+        <colonyLimitOfRank>(1, 0)</colonyLimitOfRank>
+
+        <rankTier>1</rankTier>
+
+    </Genes40k.ChapterRankDef>
+
+    <!-- XX -->
+    <Genes40k.ChapterRankDef>
+        <defName>FERP_PrimarchRankXX</defName>
+        <label>Twentieth Legion Primarch</label>
+        <description>x</description>
+        <rankIconPath>UI/Ranks/Primarchs/BEWH_iconUI_Legion_XXAlphaLegionPRE</rankIconPath>
+        <colonyLimitOfRank>(2, 0)</colonyLimitOfRank>
+
+        <requiredGenesAll>
+            <li>BEWH_PrimarchSpecificGeneXX</li>
+        </requiredGenesAll>
+
+        <givesVFEAbilities>
+            <li>BEWH_ChapterMasterSteelRain</li>
+        </givesVFEAbilities>
+
+        <givesAbilities>
+            <li>FERP_PrimarchsOrder</li>
+        </givesAbilities>
+
+        <rankTier>0</rankTier>
+
+    </Genes40k.ChapterRankDef>
+    <!-- Corrupted XX -->
+    <Genes40k.ChapterRankDef>
+        <defName>FERP_CPrimarchRankXX</defName>
+        <label>Corrupted Twentieth Legion Primarch</label>
+        <description>x</description>
+        <rankIconPath>UI/Ranks/Primarchs/BEWH_iconUI_Legion_XXAlphaLegionPRE</rankIconPath>
+        <colonyLimitOfRank>(2, 0)</colonyLimitOfRank>
+
+        <rankTier>1</rankTier>
+
+    </Genes40k.ChapterRankDef>
+
+    <!-- Warmaster -->
+    <Genes40k.ChapterRankDef>
+        <defName>FERP_PrimarchRankWarmaster</defName>
+        <label>The Warmaster</label>
+        <description>x</description>
+        <rankIconPath>UI/Ranks/Primarchs/BEWH_iconUI_Aquila</rankIconPath>
+        <colonyLimitOfRank>(1, 0)</colonyLimitOfRank>
+
+        <rankTier>3</rankTier>
+
+    </Genes40k.ChapterRankDef>
+
+</Defs>

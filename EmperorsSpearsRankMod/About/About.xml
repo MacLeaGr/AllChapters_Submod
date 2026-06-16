@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>RimDark 40k - SUBMOD: Emperor's Spears Druids and Ranks</name>
+	<author>Ferpo11</author>
+	<supportedVersions>
+		<li>1.6</li>
+	</supportedVersions>
+	<packageId>Ferpo11.RimDark.Submod.EmperorsSpearsDruids</packageId>
+	<description>This mod adds a new rank structure, exactly the same as the old one except that if a Space Marine pawn is of the Emperor's Spears gene line, they will be able to be multiple support ranks at the same time.</description>
+	<modDependencies>
+		<li>
+			<packageId>Phonicmas.RimDark.MankindsFinest</packageId>
+			<displayName>RimDark 40k - Mankinds Finest</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3505068525</steamWorkshopUrl>
+		</li>
+		<li>
+			<packageId>Ferpo11.RimDark.Submod.AllChapters</packageId>
+			<displayName>RimDark 40k - SUBMOD: Additional Pauldron Insignias</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3537850084</steamWorkshopUrl>
+		</li>
+		<li>
+			<packageId>HowltheWitch.RimDark.Insignias.Decorations</packageId>
+			<displayName>RimDark 40k - Howl's Insignias and Decorations</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3543801411</steamWorkshopUrl>
+		</li>
+		<li>
+			<packageId>Shadow.RimDark.ChapterFullGene</packageId>
+			<displayName>RimDark 40k - Shadow's Full-On Chapters</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3551007951</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>Ludeon.RimWorld</li>
+		<li>Ludeon.RimWorld.Biotech</li>
+		<li>brrainz.harmony</li>
+		<li>OskarPotocki.VanillaFactionsExpanded.Core</li>
+		<li>Phonicmas.RimDark.MankindsFinest</li>
+		<li>Ferpo11.RimDark.Submod.AllChapters</li>
+		<li>HowltheWitch.RimDark.Insignias.Decorations</li>
+		<li>Shadow.RimDark.ChapterFullGene</li>
+	</loadAfter>
+</ModMetaData>

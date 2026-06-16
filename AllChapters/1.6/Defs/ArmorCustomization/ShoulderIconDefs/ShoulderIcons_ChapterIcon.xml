@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    <!-- DARK ANGELS SUCCESSORS-->
+    <!-- Angels of Absolution -->
+    <Genes40k.ShoulderIconDef ParentName="BEWH_ChapterShoulderIcon">
+        <defName>FERPWH_ChapterIconAngelsOfAbsolution</defName>
+        <label>Angels of Absolution</label>
+        <description>Chapter icon of the Angels of Absolution.</description>
+        <iconPath>UI/Decoration/LegionBadges/FERPWH_iconUI_Chapter_AngelsOfAbsolution</iconPath>
+        <drawnTextureIconPath>Things/Armor/Imperium/PowerArmor/ChapterIcons/FERPWH_AngelsOfAbsolutionShoulder</drawnTextureIconPath>
+        <sortOrder>99</sortOrder>
+        <useColour>false</useColour> <!-- This allows player to colour their icons-->   
+        <defaultColour>(44, 44, 44)</defaultColour> <!-- This sets the default colour of the icon (Defaults to white if null) -->
+    </Genes40k.ShoulderIconDef>
+
+    <!-- Consecrators -->
+    <Genes40k.ShoulderIconDef ParentName="BEWH_ChapterShoulderIcon">
+        <defName>FERPWH_ChapterIconConsecrators</defName>
+        <label>Consecrators</label>
+        <description>Chapter icon of the Consecrators.</description>
+        <iconPath>UI/Decoration/LegionBadges/FERPWH_iconUI_Chapter_Consecrators</iconPath>
+        <drawnTextureIconPath>Things/Armor/Imperium/PowerArmor/ChapterIcons/FERPWH_ConsecratorsShoulder</drawnTextureIconPath>
+        <sortOrder>99</sortOrder>
+        <useColour>false</useColour> <!-- This allows player to colour their icons-->   
+        <defaultColour>(44, 44, 44)</defaultColour> <!-- This sets the default colour of the icon (Defaults to white if null) -->
+    </Genes40k.ShoulderIconDef>
+
+    <!-- WHITE SCARS SUCCESSORS-->
+
+    <!-- SPACE WOLVES SUCCESSORS-->
+
+    <!-- IMPERIAL FISTS SUCCESSORS-->
+    <!-- Crimson Fists -->
+    <Genes40k.ShoulderIconDef ParentName="BEWH_ChapterShoulderIcon">
+        <defName>FERPWH_ChapterIconCrimsonFists</defName>
+        <label>Crimson Fists</label>
+        <description>Chapter icon of the Crimson Fists.</description>
+        <iconPath>UI/Decoration/LegionBadges/FERPWH_iconUI_Chapter_CrimsonFists</iconPath>
+        <drawnTextureIconPath>Things/Armor/Imperium/PowerArmor/ChapterIcons/FERPWH_CrimsonFistsShoulder</drawnTextureIconPath>
+        <sortOrder>99</sortOrder>
+        <useColour>false</useColour> <!-- This allows player to colour their icons-->   
+        <defaultColour>(44, 44, 44)</defaultColour> <!-- This sets the default colour of the icon (Defaults to white if null) -->
+    </Genes40k.ShoulderIconDef>
+
+    <!-- Exorcists -->
+    <Genes40k.ShoulderIconDef ParentName="BEWH_ChapterShoulderIcon">
+        <defName>FERPWH_ChapterIconExorcists</defName>
+        <label>Exorcists</label>
+        <description>Chapter icon of the Exorcists.</description>
+        <iconPath>UI/Decoration/LegionBadges/FERPWH_iconUI_Chapter_Exorcists</iconPath>
+        <drawnTextureIconPath>Things/Armor/Imperium/PowerArmor/ChapterIcons/FERPWH_ExorcistsShoulder</drawnTextureIconPath>
+        <sortOrder>99</sortOrder>
+        <useColour>true</useColour> <!-- This allows player to colour their icons-->   
+        <defaultColour>(239, 231, 197)</defaultColour> <!-- This sets the default colour of the icon (Defaults to white if null) -->
+    </Genes40k.ShoulderIconDef>
+
+    <!-- BLOOD ANGEL SUCCESSORS-->
+    <!-- Atlantian Spears -->
+    <Genes40k.ShoulderIconDef ParentName="BEWH_ChapterShoulderIcon">
+        <defName>FERPWH_ChapterIconAtlantianSpears</defName>
+        <label>Atlantian Spears</label>
+        <description>Chapter icon of the Atlantian Spears.</description>
+        <iconPath>UI/Decoration/LegionBadges/FERPWH_iconUI_Chapter_AtlantianSpears</iconPath>
+        <drawnTextureIconPath>Things/Armor/Imperium/PowerArmor/ChapterIcons/FERPWH_AtlantianSpearsShoulder</drawnTextureIconPath>
+        <sortOrder>99</sortOrder>
+        <useColour>true</useColour> <!-- This allows player to colour their icons-->   
+        <defaultColour>(32, 32, 32)</defaultColour> <!-- This sets the default colour of the icon (Defaults to white if null) -->
+    </Genes40k.ShoulderIconDef>
+
+    <!-- Flesh Tearers -->
+    <Genes40k.ShoulderIconDef ParentName="BEWH_ChapterShoulderIcon">
+        <defName>FERPWH_ChapterIconFleshTearers</defName>
+        <label>Flesh Tearers</label>
+        <description>Chapter icon of the Flesh Tearers.</description>
+        <iconPath>UI/Decoration/LegionBadges/FERPWH_iconUI_Chapter_FleshTearers</iconPath>
+        <drawnTextureIconPath>Things/Armor/Imperium/PowerArmor/ChapterIcons/FERPWH_FleshTearersShoulder</drawnTextureIconPath>
+        <sortOrder>99</sortOrder>
+        <useColour>false</useColour> <!-- This allows player to colour their icons-->   
+        <defaultColour>(255, 255, 255)</defaultColour> <!-- This sets the default colour of the icon (Defaults to white if null) -->
+    </Genes40k.ShoulderIconDef>
+
+    <!-- IRON HANDS SUCCESSORS-->
+
+    <!-- ULTRAMARINE SUCCESSORS-->
+    <!-- Emperor's Spears -->
+    <Genes40k.ShoulderIconDef ParentName="BEWH_ChapterShoulderIcon">
+        <defName>FERPWH_ChapterIconEmperorsSpears</defName>
+        <label>Emperor's Spears</label>
+        <description>Chapter icon of the Emperor's Spears.</description>
+        <iconPath>UI/Decoration/LegionBadges/FERPWH_iconUI_Chapter_EmperorsSpears</iconPath>
+        <drawnTextureIconPath>Things/Armor/Imperium/PowerArmor/ChapterIcons/FERPWH_EmperorsSpearsShoulder</drawnTextureIconPath>
+        <sortOrder>99</sortOrder>
+        <useColour>false</useColour> <!-- This allows player to colour their icons-->   
+        <defaultColour>(44, 44, 44)</defaultColour> <!-- This sets the default colour of the icon (Defaults to white if null) -->
+    </Genes40k.ShoulderIconDef>
+
+    <!-- Novamarines -->
+    <Genes40k.ShoulderIconDef ParentName="BEWH_ChapterShoulderIcon">
+        <defName>FERPWH_ChapterIconNovamarines</defName>
+        <label>Novamarines</label>
+        <description>Chapter icon of the Novamarines.</description>
+        <iconPath>UI/Decoration/LegionBadges/FERPWH_iconUI_Chapter_Novamarines</iconPath>
+        <drawnTextureIconPath>Things/Armor/Imperium/PowerArmor/ChapterIcons/FERPWH_NovamarinesShoulder</drawnTextureIconPath>
+        <sortOrder>99</sortOrder>
+        <useColour>false</useColour> <!-- This allows player to colour their icons-->   
+        <defaultColour>(255, 255, 255)</defaultColour> <!-- This sets the default colour of the icon (Defaults to white if null) -->
+    </Genes40k.ShoulderIconDef>
+
+    <!-- Silver Templars -->
+    <Genes40k.ShoulderIconDef ParentName="BEWH_ChapterShoulderIcon">
+        <defName>FERPWH_ChapterIconSilverTemplars</defName>
+        <label>Silver Templars</label>
+        <description>Chapter icon of the Silver Templars.</description>
+        <iconPath>UI/Decoration/LegionBadges/FERPWH_iconUI_Chapter_SilverTemplars</iconPath>
+        <drawnTextureIconPath>Things/Armor/Imperium/PowerArmor/ChapterIcons/FERPWH_SilverTemplarsShoulder</drawnTextureIconPath>
+        <sortOrder>99</sortOrder>
+        <useColour>true</useColour> <!-- This allows player to colour their icons-->   
+        <defaultColour>(32, 32, 32)</defaultColour> <!-- This sets the default colour of the icon (Defaults to white if null) -->
+    </Genes40k.ShoulderIconDef>
+
+    <!-- SALAMANDERS SUCCESSORS-->
+
+    <!-- RAVEN GUARD SUCCESSORS-->
+
+    <!-- ORIGIN UNKNOWN -->
+    <!-- Blood Ravens -->
+    <Genes40k.ShoulderIconDef ParentName="BEWH_ChapterShoulderIcon">
+        <defName>FERPWH_ChapterIconBloodRavens</defName>
+        <label>Blood Ravens</label>
+        <description>Chapter icon of the Blood Ravens.</description>
+        <iconPath>UI/Decoration/LegionBadges/FERPWH_iconUI_Chapter_BloodRavens</iconPath>
+        <drawnTextureIconPath>Things/Armor/Imperium/PowerArmor/ChapterIcons/FERPWH_BloodRavensShoulder</drawnTextureIconPath>
+        <sortOrder>99</sortOrder>
+        <useColour>false</useColour> <!-- This allows player to colour their icons-->   
+        <defaultColour>(255, 255, 255)</defaultColour> <!-- This sets the default colour of the icon (Defaults to white if null) -->
+    </Genes40k.ShoulderIconDef>
+
+</Defs>

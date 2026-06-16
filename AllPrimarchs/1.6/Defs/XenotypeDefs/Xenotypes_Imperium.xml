@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Primarch - Lion El'Jonson -->
+  <XenotypeDef ParentName="BEWH_ImperiumEliteBase">
+    <defName>FERP_PrimarchLion</defName>
+    <label>Lion El'Jonson</label>
+    <description>*Primarch Description*</description>
+    <descriptionShort>*Short Primarch Description*</descriptionShort>
+    <iconPath>UI/Xenotypes/BEWH_Lion</iconPath>
+    <combatPowerFactor>8</combatPowerFactor>
+    <genes>
+      <li>BEWH_ImmortisGland</li>
+      <li>BEWH_TempestusOcularium</li>
+      <li>BEWH_ThalaxCortex</li>
+      <li>BEWH_HelixomeArray</li>
+      <li>BEWH_VermillionCache</li>
+      <li>BEWH_CelerityNexus</li>
+      <li>BEWH_HyperionMuscleStrands</li>
+      <li>BEWH_PrimarchSpecificGeneI</li>
+      <li>Ears_Human</li>
+      <li>Nose_Human</li>
+      <li>Hands_Human</li>
+      <li>Headbone_Human</li>
+      <li>Voice_Human</li>
+      <li>Jaw_Baseline</li>
+      <li>Hair_Blonde</li>
+    </genes>
+  </XenotypeDef>
+
+    <!-- Primarch - Fulgrim -->
+  <XenotypeDef ParentName="BEWH_ImperiumEliteBase">
+    <defName>FERP_PrimarchFulgrim</defName>
+    <label>Fulgrim</label>
+    <description>*Primarch Description*</description>
+    <descriptionShort>*Short Primarch Description*</descriptionShort>
+    <iconPath>UI/Xenotypes/BEWH_Fulgrim</iconPath>
+    <combatPowerFactor>8</combatPowerFactor>
+    <genes>
+      <li>BEWH_ImmortisGland</li>
+      <li>BEWH_TempestusOcularium</li>
+      <li>BEWH_ThalaxCortex</li>
+      <li>BEWH_HelixomeArray</li>
+      <li>BEWH_VermillionCache</li>
+      <li>BEWH_CelerityNexus</li>
+      <li>BEWH_HyperionMuscleStrands</li>
+      <li>BEWH_PrimarchSpecificGeneIII</li>
+      <li>Ears_Human</li>
+      <li>Nose_Human</li>
+      <li>Hands_Human</li>
+      <li>Headbone_Human</li>
+      <li>Voice_Human</li>
+      <li>Jaw_Baseline</li>
+      <li>Hair_LongOnly</li>
+      <li>Hair_SnowWhite</li>
+    </genes>
+  </XenotypeDef>
+
+    <!-- Primarch - Perturabo -->
+  <XenotypeDef ParentName="BEWH_ImperiumEliteBase">
+    <defName>FERP_PrimarchPerturabo</defName>
+    <label>Perturabo</label>
+    <description>*Primarch Description*</description>
+    <descriptionShort>*Short Primarch Description*</descriptionShort>
+    <iconPath>UI/Xenotypes/BEWH_Perturabo</iconPath>
+    <combatPowerFactor>8</combatPowerFactor>
+    <genes>
+      <li>BEWH_ImmortisGland</li>
+      <li>BEWH_TempestusOcularium</li>
+      <li>BEWH_ThalaxCortex</li>
+      <li>BEWH_HelixomeArray</li>
+      <li>BEWH_VermillionCache</li>
+      <li>BEWH_CelerityNexus</li>
+      <li>BEWH_HyperionMuscleStrands</li>
+      <li>BEWH_PrimarchSpecificGeneIV</li>
+      <li>Ears_Human</li>
+      <li>Nose_Human</li>
+      <li>Hands_Human</li>
+      <li>Headbone_Human</li>
+      <li>Voice_Human</li>
+      <li>Jaw_Baseline</li>
+      <li>Hair_BaldOnly</li>
+    </genes>
+  </XenotypeDef>
+
+    <!-- Primarch - Jaghatai Khan -->
+  <XenotypeDef ParentName="BEWH_ImperiumEliteBase">
+    <defName>FERP_PrimarchJaghatai</defName>
+    <label>Jaghatai Khan</label>
+    <description>*Primarch Description*</description>
+    <descriptionShort>*Short Primarch Description*</descriptionShort>
+    <iconPath>UI/Xenotypes/BEWH_Khan</iconPath>
+    <combatPowerFactor>8</combatPowerFactor>
+    <genes>
+      <li>BEWH_ImmortisGland</li>
+      <li>BEWH_TempestusOcularium</li>
+      <li>BEWH_ThalaxCortex</li>
+      <li>BEWH_HelixomeArray</li>
+      <li>BEWH_VermillionCache</li>
+      <li>BEWH_CelerityNexus</li>
+      <li>BEWH_HyperionMuscleStrands</li>
+      <li>BEWH_PrimarchSpecificGeneV</li>
+      <li>Ears_Human</li>
+      <li>Nose_Human</li>
+      <li>Hands_Human</li>
+      <li>Headbone_Human</li>
+      <li>Voice_Human</li>
+      <li>Jaw_Baseline</li>
+      <li>Hair_InkBlack</li>
+    </genes>
+  </XenotypeDef>
+
+    <!-- Primarch - Leman Russ -->
+  <XenotypeDef ParentName="BEWH_ImperiumEliteBase">
+    <defName>FERP_PrimarchLeman</defName>
+    <label>Leman Russ</label>
+    <description>*Primarch Description*</description>
+    <descriptionShort>*Short Primarch Description*</descriptionShort>
+    <iconPath>UI/Xenotypes/BEWH_Russ</iconPath>
+    <combatPowerFactor>8</combatPowerFactor>
+    <genes>
+      <li>BEWH_ImmortisGland</li>
+      <li>BEWH_TempestusOcularium</li>
+      <li>BEWH_ThalaxCortex</li>
+      <li>BEWH_HelixomeArray</li>
+      <li>BEWH_VermillionCache</li>
+      <li>BEWH_CelerityNexus</li>
+      <li>BEWH_HyperionMuscleStrands</li>
+      <li>BEWH_PrimarchSpecificGeneVI</li>
+      <li>Ears_Human</li>
+      <li>Nose_Human</li>
+      <li>Hands_Human</li>
+      <li>Headbone_Human</li>
+      <li>Voice_Human</li>
+      <li>Jaw_Baseline</li>
+      <li>Hair_SandyBlonde</li>
+    </genes>
+  </XenotypeDef>
+
+    <!-- Primarch - Rogal Dorn -->
+  <XenotypeDef ParentName="BEWH_ImperiumEliteBase">
+    <defName>FERP_PrimarchRogal</defName>
+    <label>Rogal Dorn</label>
+    <description>*Primarch Description*</description>
+    <descriptionShort>*Short Primarch Description*</descriptionShort>
+    <iconPath>UI/Xenotypes/BEWH_Dorn</iconPath>
+    <combatPowerFactor>8</combatPowerFactor>
+    <genes>
+      <li>BEWH_ImmortisGland</li>
+      <li>BEWH_TempestusOcularium</li>
+      <li>BEWH_ThalaxCortex</li>
+      <li>BEWH_HelixomeArray</li>
+      <li>BEWH_VermillionCache</li>
+      <li>BEWH_CelerityNexus</li>
+      <li>BEWH_HyperionMuscleStrands</li>
+      <li>BEWH_PrimarchSpecificGeneVII</li>
+      <li>Ears_Human</li>
+      <li>Nose_Human</li>
+      <li>Hands_Human</li>
+      <li>Headbone_Human</li>
+      <li>Voice_Human</li>
+      <li>Jaw_Baseline</li>
+      <li>Hair_ShortOnly</li>
+      <li>Hair_SnowWhite</li>
+    </genes>
+  </XenotypeDef>
+
+    <!-- Primarch - Konrad Curze -->
+  <XenotypeDef ParentName="BEWH_ImperiumEliteBase">
+    <defName>FERP_PrimarchKonrad</defName>
+    <label>Konrad Curze</label>
+    <description>*Primarch Description*</description>
+    <descriptionShort>*Short Primarch Description*</descriptionShort>
+    <iconPath>UI/Xenotypes/BEWH_Curze</iconPath>
+    <combatPowerFactor>8</combatPowerFactor>
+    <genes>
+      <li>BEWH_ImmortisGland</li>
+      <li>BEWH_TempestusOcularium</li>
+      <li>BEWH_ThalaxCortex</li>
+      <li>BEWH_HelixomeArray</li>
+      <li>BEWH_VermillionCache</li>
+      <li>BEWH_CelerityNexus</li>
+      <li>BEWH_HyperionMuscleStrands</li>
+      <li>BEWH_PrimarchSpecificGeneVIII</li>
+      <li>Ears_Human</li>
+      <li>Nose_Human</li>
+      <li>Hands_Human</li>
+      <li>Headbone_Human</li>
+      <li>Voice_Human</li>
+      <li>Head_Gaunt</li>
+      <li>Hair_LongOnly</li>
+      <li>Hair_InkBlack</li>
+      <li>Skin_LightGray</li>
+    </genes>
+  </XenotypeDef>
+
+    <!-- Primarch - Sanguinius -->
+  <XenotypeDef ParentName="BEWH_ImperiumEliteBase">
+    <defName>FERP_PrimarchSanguinius</defName>
+    <label>Sanguinius</label>
+    <description>Sanguinius</description>
+    <descriptionShort>*Short Primarch Description*</descriptionShort>
+    <iconPath>UI/Xenotypes/BEWH_Sanguinius</iconPath>
+    <combatPowerFactor>8</combatPowerFactor>
+    <genes>
+      <li>BEWH_ImmortisGland</li>
+      <li>BEWH_TempestusOcularium</li>
+      <li>BEWH_ThalaxCortex</li>
+      <li>BEWH_HelixomeArray</li>
+      <li>BEWH_VermillionCache</li>
+      <li>BEWH_CelerityNexus</li>
+      <li>BEWH_HyperionMuscleStrands</li>
+      <li>BEWH_PrimarchSpecificGeneIX</li>
+      <li>Ears_Human</li>
+      <li>Nose_Human</li>
+      <li>Hands_Human</li>
+      <li>Headbone_Human</li>
+      <li>Voice_Human</li>
+      <li>Jaw_Baseline</li>
+      <li>Hair_LongOnly</li>
+      <li>Hair_Blonde</li>
+    </genes>
+  </XenotypeDef>
+
+    <!-- Primarch - Ferrus Manus -->
+  <XenotypeDef ParentName="BEWH_ImperiumEliteBase">
+    <defName>FERP_PrimarchFerrus</defName>
+    <label>Ferrus Manus</label>
+    <description>*Primarch Description*</description>
+    <descriptionShort>*Short Primarch Description*</descriptionShort>
+    <iconPath>UI/Xenotypes/BEWH_Manus</iconPath>
+    <combatPowerFactor>8</combatPowerFactor>
+    <genes>
+      <li>BEWH_ImmortisGland</li>
+      <li>BEWH_TempestusOcularium</li>
+      <li>BEWH_ThalaxCortex</li>
+      <li>BEWH_HelixomeArray</li>
+      <li>BEWH_VermillionCache</li>
+      <li>BEWH_CelerityNexus</li>
+      <li>BEWH_HyperionMuscleStrands</li>
+      <li>BEWH_PrimarchSpecificGeneX</li>
+      <li>Ears_Human</li>
+      <li>Nose_Human</li>
+      <li>Hands_Human</li>
+      <li>Headbone_Human</li>
+      <li>Voice_Human</li>
+      <li>Jaw_Baseline</li>
+      <li>Hair_ShortOnly</li>
+      <li>Hair_InkBlack</li>
+    </genes>
+  </XenotypeDef>
+
+    <!-- Primarch - Angron -->
+  <XenotypeDef ParentName="BEWH_ImperiumEliteBase">
+    <defName>FERP_PrimarchAngron</defName>
+    <label>Angron</label>
+    <description>*Primarch Description*</description>
+    <descriptionShort>*Short Primarch Description*</descriptionShort>
+    <iconPath>UI/Xenotypes/BEWH_Chillgron</iconPath>
+    <combatPowerFactor>8</combatPowerFactor>
+    <genes>
+      <li>BEWH_ImmortisGland</li>
+      <li>BEWH_TempestusOcularium</li>
+      <li>BEWH_ThalaxCortex</li>
+      <li>BEWH_HelixomeArray</li>
+      <li>BEWH_VermillionCache</li>
+      <li>BEWH_CelerityNexus</li>
+      <li>BEWH_HyperionMuscleStrands</li>
+      <li>BEWH_PrimarchSpecificGeneXII</li>
+      <li>Ears_Human</li>
+      <li>Nose_Human</li>
+      <li>Hands_Human</li>
+      <li>Headbone_Human</li>
+      <li>Voice_Human</li>
+      <li>Jaw_Baseline</li>
+      <li>Hair_BaldOnly</li>
+    </genes>
+  </XenotypeDef>
+
+    <!-- Primarch - Robute Guilliman -->
+  <XenotypeDef ParentName="BEWH_ImperiumEliteBase">
+    <defName>FERP_PrimarchRobute</defName>
+    <label>Robute Guilliman</label>
+    <description>*Primarch Description*</description>
+    <descriptionShort>*Short Primarch Description*</descriptionShort>
+    <iconPath>UI/Xenotypes/BEWH_Robot</iconPath>
+    <combatPowerFactor>8</combatPowerFactor>
+    <genes>
+      <li>BEWH_ImmortisGland</li>
+      <li>BEWH_TempestusOcularium</li>
+      <li>BEWH_ThalaxCortex</li>
+      <li>BEWH_HelixomeArray</li>
+      <li>BEWH_VermillionCache</li>
+      <li>BEWH_CelerityNexus</li>
+      <li>BEWH_HyperionMuscleStrands</li>
+      <li>BEWH_PrimarchSpecificGeneXIII</li>
+      <li>Ears_Human</li>
+      <li>Nose_Human</li>
+      <li>Hands_Human</li>
+      <li>Headbone_Human</li>
+      <li>Voice_Human</li>
+      <li>Jaw_Baseline</li>
+      <li>Hair_ShortOnly</li>
+      <li>Hair_Blonde</li>
+    </genes>
+  </XenotypeDef>
+
+    <!-- Primarch - Mortarion -->
+  <XenotypeDef ParentName="BEWH_ImperiumEliteBase">
+    <defName>FERP_PrimarchMortarion</defName>
+    <label>Mortarion</label>
+    <description>*Primarch Description*</description>
+    <descriptionShort>*Short Primarch Description*</descriptionShort>
+    <iconPath>UI/Xenotypes/BEWH_Morty</iconPath>
+    <combatPowerFactor>8</combatPowerFactor>
+    <genes>
+      <li>BEWH_ImmortisGland</li>
+      <li>BEWH_TempestusOcularium</li>
+      <li>BEWH_ThalaxCortex</li>
+      <li>BEWH_HelixomeArray</li>
+      <li>BEWH_VermillionCache</li>
+      <li>BEWH_CelerityNexus</li>
+      <li>BEWH_HyperionMuscleStrands</li>
+      <li>BEWH_PrimarchSpecificGeneXIV</li>
+      <li>Ears_Human</li>
+      <li>Nose_Human</li>
+      <li>Hands_Human</li>
+      <li>Headbone_Human</li>
+      <li>Voice_Human</li>
+      <li>Jaw_Baseline</li>
+      <li>Hair_ShortOnly</li>
+      <li>Skin_LightGray</li>
+    </genes>
+  </XenotypeDef>
+
+    <!-- Primarch - Magnus the Red -->
+  <XenotypeDef ParentName="BEWH_ImperiumEliteBase">
+    <defName>FERP_PrimarchMagnus</defName>
+    <label>Magnus the Red</label>
+    <description>*Primarch Description*</description>
+    <descriptionShort>*Short Primarch Description*</descriptionShort>
+    <iconPath>UI/Xenotypes/BEWH_Magnus</iconPath>
+    <combatPowerFactor>8</combatPowerFactor>
+    <genes>
+      <li>BEWH_ImmortisGland</li>
+      <li>BEWH_TempestusOcularium</li>
+      <li>BEWH_ThalaxCortex</li>
+      <li>BEWH_HelixomeArray</li>
+      <li>BEWH_VermillionCache</li>
+      <li>BEWH_CelerityNexus</li>
+      <li>BEWH_HyperionMuscleStrands</li>
+      <li>BEWH_PrimarchSpecificGeneXV</li>
+      <li>Ears_Human</li>
+      <li>Nose_Human</li>
+      <li>Hands_Human</li>
+      <li>Headbone_Human</li>
+      <li>Voice_Human</li>
+      <li>Jaw_Baseline</li>
+      <li>Hair_LongOnly</li>
+      <li>Hair_BrightRed</li>
+      <li>Skin_DeepRed</li>
+    </genes>
+  </XenotypeDef>
+
+    <!-- Primarch - Horus Lupercal -->
+  <XenotypeDef ParentName="BEWH_ImperiumEliteBase">
+    <defName>FERP_PrimarchHorus</defName>
+    <label>Horus Lupercal</label>
+    <description>*Primarch Description*</description>
+    <descriptionShort>*Short Primarch Description*</descriptionShort>
+    <iconPath>UI/Xenotypes/BEWH_TheBaldOne</iconPath>
+    <combatPowerFactor>8</combatPowerFactor>
+    <genes>
+      <li>BEWH_ImmortisGland</li>
+      <li>BEWH_TempestusOcularium</li>
+      <li>BEWH_ThalaxCortex</li>
+      <li>BEWH_HelixomeArray</li>
+      <li>BEWH_VermillionCache</li>
+      <li>BEWH_CelerityNexus</li>
+      <li>BEWH_HyperionMuscleStrands</li>
+      <li>BEWH_PrimarchSpecificGeneXVI</li>
+      <li>Ears_Human</li>
+      <li>Nose_Human</li>
+      <li>Hands_Human</li>
+      <li>Headbone_Human</li>
+      <li>Voice_Human</li>
+      <li>Jaw_Baseline</li>
+      <li>Hair_BaldOnly</li>
+    </genes>
+  </XenotypeDef>
+
+    <!-- Primarch - Lorgar Aurelian -->
+  <XenotypeDef ParentName="BEWH_ImperiumEliteBase">
+    <defName>FERP_PrimarchLorgar</defName>
+    <label>Lorgar Aurelian</label>
+    <description>*Primarch Description*</description>
+    <descriptionShort>*Short Primarch Description*</descriptionShort>
+    <iconPath>UI/Xenotypes/BEWH_Lorgar</iconPath>
+    <combatPowerFactor>8</combatPowerFactor>
+    <genes>
+      <li>BEWH_ImmortisGland</li>
+      <li>BEWH_TempestusOcularium</li>
+      <li>BEWH_ThalaxCortex</li>
+      <li>BEWH_HelixomeArray</li>
+      <li>BEWH_VermillionCache</li>
+      <li>BEWH_CelerityNexus</li>
+      <li>BEWH_HyperionMuscleStrands</li>
+      <li>BEWH_PrimarchSpecificGeneXVII</li>
+      <li>Ears_Human</li>
+      <li>Nose_Human</li>
+      <li>Hands_Human</li>
+      <li>Headbone_Human</li>
+      <li>Voice_Human</li>
+      <li>Jaw_Baseline</li>
+      <li>Hair_BaldOnly</li>
+      <li>Skin_PaleYellow</li>
+    </genes>
+  </XenotypeDef>
+
+    <!-- Primarch - Vulkan -->
+  <XenotypeDef ParentName="BEWH_ImperiumEliteBase">
+    <defName>FERP_PrimarchVulkan</defName>
+    <label>Vulkan</label>
+    <description>*Primarch Description*</description>
+    <descriptionShort>*Short Primarch Description*</descriptionShort>
+    <iconPath>UI/Xenotypes/BEWH_Vulkan</iconPath>
+    <combatPowerFactor>8</combatPowerFactor>
+    <genes>
+      <li>BEWH_ImmortisGland</li>
+      <li>BEWH_TempestusOcularium</li>
+      <li>BEWH_ThalaxCortex</li>
+      <li>BEWH_HelixomeArray</li>
+      <li>BEWH_VermillionCache</li>
+      <li>BEWH_CelerityNexus</li>
+      <li>BEWH_HyperionMuscleStrands</li>
+      <li>BEWH_PrimarchSpecificGeneXVIII</li>
+      <li>Ears_Human</li>
+      <li>Nose_Human</li>
+      <li>Hands_Human</li>
+      <li>Headbone_Human</li>
+      <li>Voice_Human</li>
+      <li>Jaw_Baseline</li>
+      <li>Hair_BaldOnly</li>
+      <li>Skin_InkBlack</li>
+      <li>Eyes_Red</li>
+    </genes>
+  </XenotypeDef>
+
+    <!-- Primarch - Corvus Corax -->
+  <XenotypeDef ParentName="BEWH_ImperiumEliteBase">
+    <defName>FERP_PrimarchCorvus</defName>
+    <label>Corvus Corax</label>
+    <description>*Primarch Description*</description>
+    <descriptionShort>*Short Primarch Description*</descriptionShort>
+    <iconPath>UI/Xenotypes/BEWH_Corvus</iconPath>
+    <combatPowerFactor>8</combatPowerFactor>
+    <genes>
+      <li>BEWH_ImmortisGland</li>
+      <li>BEWH_TempestusOcularium</li>
+      <li>BEWH_ThalaxCortex</li>
+      <li>BEWH_HelixomeArray</li>
+      <li>BEWH_VermillionCache</li>
+      <li>BEWH_CelerityNexus</li>
+      <li>BEWH_HyperionMuscleStrands</li>
+      <li>BEWH_PrimarchSpecificGeneXIX</li>
+      <li>Ears_Human</li>
+      <li>Nose_Human</li>
+      <li>Hands_Human</li>
+      <li>Headbone_Human</li>
+      <li>Voice_Human</li>
+      <li>Jaw_Baseline</li>
+      <li>Hair_LongOnly</li>
+      <li>Hair_InkBlack</li>
+      <li>Skin_LightGray</li>
+    </genes>
+  </XenotypeDef>
+
+    <!-- Primarch - Alpharius Omegon -->
+  <XenotypeDef ParentName="BEWH_ImperiumEliteBase">
+    <defName>FERP_PrimarchAlpharius</defName>
+    <label>Alpharius Omegon</label>
+    <description>*Primarch Description*</description>
+    <descriptionShort>*Short Primarch Description*</descriptionShort>
+    <iconPath>UI/Xenotypes/BEWH_AlphaOmega</iconPath>
+    <combatPowerFactor>8</combatPowerFactor>
+    <genes>
+      <li>BEWH_ImmortisGland</li>
+      <li>BEWH_TempestusOcularium</li>
+      <li>BEWH_ThalaxCortex</li>
+      <li>BEWH_HelixomeArray</li>
+      <li>BEWH_VermillionCache</li>
+      <li>BEWH_CelerityNexus</li>
+      <li>BEWH_HyperionMuscleStrands</li>
+      <li>BEWH_PrimarchSpecificGeneXX</li>
+      <li>Ears_Human</li>
+      <li>Nose_Human</li>
+      <li>Hands_Human</li>
+      <li>Headbone_Human</li>
+      <li>Voice_Human</li>
+      <li>Jaw_Baseline</li>
+      <li>Hair_BaldOnly</li>
+    </genes>
+  </XenotypeDef>
+
+</Defs>
